@@ -1,0 +1,191 @@
+.inner-banner{
+  height: em(740);
+  position: relative;
+  background: $primary;
+  .banner-ellipse{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: em(370);
+    background: url("/assets/images/banner-ellipse-shap.png") no-repeat center;
+    background-position: 0 12%;
+    background-size: cover;
+    z-index: 4;
+    pointer-events: none;
+  }
+  .banner-ellipse-line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: em(370);
+    z-index: 5;
+    pointer-events: none;
+    @include transitions(1.2s);
+    &:before{
+      position: absolute;
+      content: '';
+      background: url("/assets/images/banner-ellipse-line.png") no-repeat left;
+      background-size: cover;
+      background-position: 0 12%;
+      width: 100vw;
+      height: 100%;
+      left: 0;
+    }
+  }
+  .grid{
+    z-index: 4;
+  }
+  .inner-banner-img{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url("/assets/images/inner-banner-overlay.png") no-repeat center / cover;
+    }
+  }
+}
+
+.breadcrumbs-section{
+  position: relative;
+  z-index: 4;
+  top: em(-100);
+  margin-bottom: em(-100);
+  .breadcrumb{
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    .breadcrumb-item{
+      color: $white;
+      a{
+        color: $white;
+        position: relative;
+        &:before{
+          position: absolute;
+          content: '';
+          right: 0;
+          bottom: 0;
+          width: 0;
+          height: 1px;
+          background: $white;
+          @include transitions(0.5s);
+        }
+      }
+      +.breadcrumb-item{
+        &:before{
+          content: "\69";
+          font-family: "uaep" !important;
+          color: $white;
+          font-size: em(18);
+          position: relative;
+          top: em(2);
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) { }
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .inner-banner{
+    .banner-ellipse-line{
+      width: 1px;
+      overflow: hidden;
+      &.lineDraw{
+        width: 100%;
+        opacity: 1;
+      }
+    }
+  }
+  .breadcrumbs-section {
+    .breadcrumb {
+      .breadcrumb-item {
+        a{
+          &:hover{
+            &:before{
+              width: 100%;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .inner-banner {
+    height: em(600);
+    .banner-ellipse{
+      height: em(280);
+    }
+    .banner-ellipse-line{
+      height: em(280);
+    }
+  }
+  .breadcrumbs-section{
+    top: em(-80);
+    margin-bottom: em(-80);
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .inner-banner {
+    height: em(550);
+    .banner-ellipse{
+      height: em(250);
+      bottom: em(-5);
+    }
+    .banner-ellipse-line{
+      height: em(250);
+      bottom: em(-5);
+    }
+  }
+  .breadcrumbs-section{
+    top: em(-80);
+    margin-bottom: em(-80);
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .inner-banner{
+    height: em(400);
+    .banner-ellipse{
+      height: em(150);
+      background-position: center;
+    }
+    .banner-ellipse-line{
+      height: em(120);
+    }
+  }
+  .breadcrumbs-section{
+    top: em(-40);
+    margin-bottom: em(-40);
+  }
+}

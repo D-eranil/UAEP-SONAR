@@ -1,0 +1,30 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 146
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 146
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 146
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 146
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 143
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 143
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\post.aspx.cs:line 41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62

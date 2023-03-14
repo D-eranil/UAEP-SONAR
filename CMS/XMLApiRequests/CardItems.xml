@@ -1,0 +1,23 @@
+<TransactionLine>
+	<lineReceiptNo>$lineReceiptNo$</lineReceiptNo>
+	<lineTransDate>$lineTransDate$</lineTransDate>
+	<lineTransTime>$lineTransTime$</lineTransTime>
+	<lineNo>$lineNo$</lineNo>
+	<lineStoreNo>$lineStoreNo$</lineStoreNo>
+	<lineTicketNo>$lineTicketNo$</lineTicketNo>
+	<lineTicketExpiryDate></lineTicketExpiryDate>
+    <lineTicketActivateDate></lineTicketActivateDate>
+	<lineItemNo>$lineItemNo$</lineItemNo>
+	<lineItemdescription></lineItemdescription>
+	<lineExpirationdate></lineExpirationdate>
+	<lineQuantity>$lineQuantity$</lineQuantity>
+	<lineUnitPrice>$lineUnitPrice$</lineUnitPrice>
+	<lineVATCode></lineVATCode>
+	<lineVATPercentage></lineVATPercentage>
+	<lineVatAmount></lineVatAmount>
+	<lineNetAmount>$lineNetAmount$</lineNetAmount>
+	<lineDiscountPercent></lineDiscountPercent>
+	<lineDiscountAmount>$lineDiscountAmount$</lineDiscountAmount>
+	<lineAmount>$lineAmount$</lineAmount>
+</TransactionLine>
+

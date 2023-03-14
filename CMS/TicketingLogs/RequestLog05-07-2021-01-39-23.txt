@@ -1,0 +1,87 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <ImportTransIntegration xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <importWebSiteData>
+                <Loyaltycustomer xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <customerEntryno></customerEntryno>
+                    <customerNo></customerNo>
+                    <customerContactno></customerContactno>
+                    <customerMobileno></customerMobileno>
+                    <customerLoyaltycustomer></customerLoyaltycustomer>
+                    <customerClubcode></customerClubcode>
+                    <customerSchemecode></customerSchemecode>
+                    <customerName></customerName>
+                    <customerName2></customerName2>
+                    <customerAddress></customerAddress>
+                    <customerAddress2></customerAddress2>
+                    <customerCity></customerCity>
+                    <customerCountry></customerCountry>
+                    <customerPhoneno></customerPhoneno>
+                    <customerEmail></customerEmail>
+                    <customerPostcode></customerPostcode>
+                </Loyaltycustomer>
+                <TransactionHeader xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <headerReceiptNo>WR288008643714</headerReceiptNo>
+                    <headerStoreNo>S1001</headerStoreNo>
+                    <headerTansactionDate>2021-07-01</headerTansactionDate>
+                    <headerTransactionTime>13:39:23</headerTransactionTime>
+                    <headerOriginialDate>2021-07-05</headerOriginialDate>
+                    <headerNoOfItem>2</headerNoOfItem>
+                    <headerNoofItemLines></headerNoofItemLines>
+                    <headerMembeCardNo></headerMembeCardNo>
+                    <headerCustomerNo></headerCustomerNo>
+                    <headerNetAmount>10.5</headerNetAmount>
+                    <headerVATAmount></headerVATAmount>
+                    <headerGrossAmount>10</headerGrossAmount>
+                    <headerDiscountAmount>0.5</headerDiscountAmount>
+                    <headerTenderType>Online Payment</headerTenderType>
+                    <headerPaymentAmount>10.5</headerPaymentAmount>
+					<headerNetPrice>10.5</headerNetPrice>
+                    <TransactionLine>
+	<lineReceiptNo>WR288008643714</lineReceiptNo>
+	<lineTransDate>2021-07-01</lineTransDate>
+	<lineTransTime>13:39:23</lineTransTime>
+	<lineNo>10000</lineNo>
+	<lineStoreNo>S1001</lineStoreNo>
+	<lineTicketNo>60000002</lineTicketNo>
+	<lineTicketExpiryDate>2021-07-01</lineTicketExpiryDate>
+    <lineTicketActivateDate>2021-07-01</lineTicketActivateDate>
+	<lineItemNo>1</lineItemNo>
+	<lineItemdescription></lineItemdescription>
+	<lineExpirationdate></lineExpirationdate>
+	<lineQuantity>1</lineQuantity>
+	<lineUnitPrice>10.00</lineUnitPrice>
+	<lineVATCode></lineVATCode>
+	<lineVATPercentage></lineVATPercentage>
+	<lineVatAmount></lineVatAmount>
+	<lineNetAmount>10.5</lineNetAmount>
+	<lineDiscountPercent></lineDiscountPercent>
+	<lineDiscountAmount>0.5</lineDiscountAmount>
+	<lineAmount>10.5</lineAmount>
+</TransactionLine><TransactionLine>
+	<lineReceiptNo>WR288008643714</lineReceiptNo>
+	<lineTransDate>2021-07-01</lineTransDate>
+	<lineTransTime>13:39:23</lineTransTime>
+	<lineNo>20000</lineNo>
+	<lineStoreNo>S1001</lineStoreNo>
+	<lineTicketNo>60000003</lineTicketNo>
+	<lineTicketExpiryDate>2021-07-01</lineTicketExpiryDate>
+    <lineTicketActivateDate>2021-07-01</lineTicketActivateDate>
+	<lineItemNo>3</lineItemNo>
+	<lineItemdescription></lineItemdescription>
+	<lineExpirationdate></lineExpirationdate>
+	<lineQuantity>1</lineQuantity>
+	<lineUnitPrice>00.00</lineUnitPrice>
+	<lineVATCode></lineVATCode>
+	<lineVATPercentage></lineVATPercentage>
+	<lineVatAmount></lineVatAmount>
+	<lineNetAmount>10.5</lineNetAmount>
+	<lineDiscountPercent></lineDiscountPercent>
+	<lineDiscountAmount></lineDiscountAmount>
+	<lineAmount>10.5</lineAmount>
+</TransactionLine>
+                </TransactionHeader>
+            </importWebSiteData>
+        </ImportTransIntegration>
+    </Body>
+</Envelope>

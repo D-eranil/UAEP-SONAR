@@ -1,0 +1,422 @@
+.whats-happening {
+  /*padding: em(100) 0 em(120);*/
+  padding: em(20) 0 em(120);
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  .bg-svg-1 {
+    position: absolute;
+    width: em(867);
+    height: em(650);
+    left: em(-200);
+    top: em(200);
+    opacity: 0.2;
+    img{
+      width: 100%;
+      @include scaleX(-1);
+    }
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: $primary;
+      @include transitions(0.8s);
+    }
+    &.show-effect{
+      &:before{
+        width: 0;
+      }
+    }
+  }
+  .leaf-logo {
+    max-width: em(70);
+    margin: auto auto em(45);
+  }
+  .lead{
+    margin-bottom: em(90);
+  }
+  .container, .container-fluid{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.happening-slider {
+  margin-top: em(30);
+  .framed-slide {
+    position: relative;
+    padding-left: em(15);
+    padding-right: em(15);
+    .img-wrap {
+      position: relative;
+      &:before {
+        content: "";
+        top: em(-1);
+        bottom: em(-1);
+        left: em(-1);
+        right: em(-1);
+        margin: auto;
+        background: transparent url("/assets/img/photo-frame.png");
+        position: absolute;
+        background-size: 100% 100%;
+      }
+      img {
+        width: 100%;
+        max-height: 80vh;
+      }
+    }
+    .text-wrap-div {
+      position: absolute;
+      bottom: 0;
+      z-index: 3;
+      width: 100%;
+      padding: em(90) em(115);
+
+      .date-text {
+        font-size: em(18);
+        margin-bottom: em(30);
+
+        .calendar-icon {
+          width: em(20);
+          height: em(20);
+          display: inline;
+          vertical-align: sub;
+          margin-left: em(15);
+        }
+      }
+
+      h4 {
+        font-weight: 700;
+        margin-bottom: em(10);
+      }
+
+      p {
+
+      }
+
+      /*.read-more-link {
+        margin: auto;
+        text-transform: uppercase;
+        color: $white;
+        font-size: em(16);
+        position: relative;
+        padding-right: em(15);
+        &:before {
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          left: auto;
+          right: em(-90);
+          top: 0;
+          bottom: 0;
+          border-top: em(5) solid transparent;
+          border-right: em(6) solid #fff;
+          border-bottom: em(5) solid transparent;
+          margin: auto;
+          border-left: em(6) solid #fff;
+          border-right: transparent;
+          @include transitions(.5s);
+        }
+
+        &:after {
+          position: absolute;
+          content: '';
+          width: em(70);
+          height: 1px;
+          background: #fff;
+          top: 0;
+          right: em(-70);
+          left: auto;
+          bottom: 0;
+          margin: auto;
+          @include transitions(.5s);
+        }
+      }*/
+    }
+  }
+  .slick-arrow {
+    width: em(65);
+    height: em(65);
+    position: absolute;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid $white;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    right: em(150);
+    @include borderRadius(50%);
+    z-index: 2;
+
+    &:before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      border-top: em(9) solid transparent;
+      border-left: em(9) solid $white;
+      border-bottom: em(9) solid transparent;
+      margin: auto;
+      @include transitions(0.5s);
+    }
+
+    &:after {
+      display: none;
+      position: absolute;
+      content: '';
+      width: em(40);
+      height: 1px;
+      background: $white;
+      top: 0;
+      right: em(45);
+      bottom: 0;
+      margin: auto;
+      @include transitions(0.5s);
+    }
+
+    &.happening-arrow-right {
+      left: em(160);
+      right: auto;
+
+      &:before {
+        border-right: em(9) solid $white;
+        border-left: transparent;
+      }
+
+      &:after {
+        right: auto;
+        left: em(45);
+      }
+    }
+  }
+}
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) {
+}
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .whats-happening{
+    .whats-happening-heading{
+      max-width: 81.250%;
+    }
+  }
+  .happening-slider {
+    .slick-arrow {
+      &:after {
+        display: block;
+      }
+      &:hover {
+        background: $white;
+        &:before{
+          border-left-color: $primary;
+        }
+        &:after {
+          right: em(30);
+          width: 0;
+        }
+      }
+      &.happening-arrow-right {
+        &:hover {
+          &:before{
+            border-right-color: $primary;
+          }
+          &:after {
+            right: auto;
+            left: em(30);
+          }
+        }
+      }
+    }
+    /*.framed-slide .text-wrap-div .read-more-link {
+      &:hover {
+        &:after {
+          right: em(-85);
+        }
+      }
+    }*/
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .whats-happening{
+    padding: em(60) 0 em(0);
+    .whats-happening-heading{
+      padding: 0 em(30);
+    }
+    .lead{
+      margin-bottom: em(40);
+      br{
+        display: none;
+      }
+    }
+  }
+  .happening-slider {
+    margin-top: em(30);
+    padding-bottom: em(90);
+    .slick-arrow {
+      right: em(-90);
+      left: 0;
+      top: auto;
+      bottom: 0;
+      &.happening-arrow-right {
+        right: 0;
+        left: em(-90);
+      }
+    }
+
+    .framed-slide .text-wrap-div {
+      position: relative;
+      padding: em(30) 0;
+      h4 {
+        br{
+          display: none;
+        }
+      }
+      .date-text {
+        margin-bottom: em(15);
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .whats-happening{
+    padding: em(80) 0 em(0);
+    .lead{
+      margin-bottom: em(40);
+      br{
+        display: none;
+      }
+    }
+  }
+  .happening-slider {
+    margin-top: em(30);
+    padding-bottom: em(90);
+    .slick-arrow {
+      right: em(-90);
+      left: 0;
+      top: auto;
+      bottom: 0;
+      &.happening-arrow-right {
+        right: 0;
+        left: em(-90);
+      }
+    }
+
+    .framed-slide .text-wrap-div {
+      position: relative;
+      padding: em(30) 0;
+      h4 {
+        br{
+          display: none;
+        }
+      }
+      .date-text {
+        margin-bottom: em(15);
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .whats-happening{
+    padding: em(180) 0 em(0);
+    .lead{
+      br{
+        display: none;
+      }
+    }
+  }
+  .happening-slider {
+    margin-top: em(30);
+
+    .slick-arrow {
+      top: em(-90);
+      bottom: auto;
+      right: auto;
+      left: em(100);
+
+      &.happening-arrow-right {
+        left: em(15);
+      }
+    }
+
+    .framed-slide .text-wrap-div {
+      position: relative;
+      padding: em(30) 0;
+      h4 {
+        br{
+          display: none;
+        }
+      }
+      .date-text {
+        margin-bottom: em(15);
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .whats-happening{
+    padding: em(60) 0 em(0);
+    .lead{
+      margin-bottom: em(40);
+      br{
+        display: none;
+      }
+    }
+    .bg-svg-1{
+      display: none;
+    }
+  }
+  .happening-slider {
+    margin-top: em(30);
+
+    .slick-arrow {
+      top: em(-90);
+      bottom: auto;
+      right: auto;
+      left: em(100);
+
+      &.happening-arrow-right {
+        left: em(15);
+      }
+    }
+
+    .framed-slide .text-wrap-div {
+      position: relative;
+      padding: em(30) 0;
+      h4 {
+        br{
+          display: none;
+        }
+      }
+      .date-text {
+        margin-bottom: em(15);
+      }
+    }
+  }
+}
+

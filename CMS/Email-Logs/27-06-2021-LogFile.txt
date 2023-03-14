@@ -1,0 +1,34 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: An operation was attempted on something that is not a socket 10.30.34.95:7047
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+----------------------- Inner Exception ------------------------------
+System.Net.Sockets.SocketException (0x80004005): An operation was attempted on something that is not a socket 10.30.34.95:7047
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)

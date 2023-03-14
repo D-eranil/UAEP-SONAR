@@ -1,0 +1,12 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 57

@@ -1,0 +1,17 @@
+﻿<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <GetItemPrice xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <getPriceXmlport>
+                <Items xmlns="urn:microsoft-dynamics-nav/xmlports/x50000">
+                    <GetItemDetails>
+                        <RequestId>test</RequestId>
+                        <RequestDate>2021-04-04</RequestDate>
+                        <RequestTime>14:00:00</RequestTime>
+                        <ItemNo>12</ItemNo>
+                        <Quantity>1</Quantity>
+                    </GetItemDetails>
+                </Items>
+            </getPriceXmlport>
+        </GetItemPrice>
+    </Body>
+</Envelope>

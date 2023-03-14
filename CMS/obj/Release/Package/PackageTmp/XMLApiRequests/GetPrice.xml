@@ -1,0 +1,11 @@
+﻿<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <GetItemPrice xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <getPriceXmlport>
+                <Items xmlns="urn:microsoft-dynamics-nav/xmlports/x50000">
+                   $ItemDetails$
+                </Items>
+            </getPriceXmlport>
+        </GetItemPrice>
+    </Body>
+</Envelope>

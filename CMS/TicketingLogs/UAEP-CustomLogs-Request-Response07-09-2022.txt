@@ -1,0 +1,18 @@
+
+ ---------------------------- 9/7/2022 4:21:46 PM ---------------------------------
+{"Registration":{"Currency":"AED","ReturnPath":"http://uaep.dev.local/en/Test?04476","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"04476","Store":null,"Terminal":null,"Channel":"Web","Amount":"20","Customer":"Demo Merchant","OrderName":"Paybill","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 9/7/2022 4:21:47 PM ---------------------------------
+"{\"Transaction\":{\"PaymentPortal\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"PaymentPage\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"TransactionID\":\"208902841758\",\"Balance\":{\"Value\":\"0\"},\"Amount\":{\"Value\":\"0\"},\"Fees\":{\"Value\":\"0\"},\"UniqueID\":\"a2b861c0-8e3d-442c-a0b6-8fa7ed99be9c\"}}"
+
+ ---------------------------- 9/7/2022 7:25:06 PM ---------------------------------
+{"Registration":{"Currency":"AED","ReturnPath":"http://uaep.dev.local/en/Test?04480","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"04480","Store":null,"Terminal":null,"Channel":"Web","Amount":"10","Customer":"Demo Merchant","OrderName":"Paybill","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 9/7/2022 7:25:06 PM ---------------------------------
+"{\"Transaction\":{\"PaymentPortal\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"PaymentPage\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"TransactionID\":\"290409286966\",\"Balance\":{\"Value\":\"0\"},\"Amount\":{\"Value\":\"0\"},\"Fees\":{\"Value\":\"0\"},\"UniqueID\":\"e1fe7d0a-6ef5-4412-9e72-d7d5545ab4a9\"}}"
+
+ ---------------------------- 9/7/2022 7:28:41 PM ---------------------------------
+{"Registration":{"Currency":"AED","ReturnPath":"http://uaep.dev.local/en/Test?04486","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"04486","Store":null,"Terminal":null,"Channel":"Web","Amount":"10","Customer":"Demo Merchant","OrderName":"Paybill","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 9/7/2022 7:28:41 PM ---------------------------------
+"{\"Transaction\":{\"PaymentPortal\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"PaymentPage\":\"https://demo-ipg.ctdev.comtrust.ae/PaymentEx/MerchantPay/Payment?lang=en&layout=C0STCBVLEI\",\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"TransactionID\":\"204742961567\",\"Balance\":{\"Value\":\"0\"},\"Amount\":{\"Value\":\"0\"},\"Fees\":{\"Value\":\"0\"},\"UniqueID\":\"3796516f-1036-47e2-9609-217c0bdf3688\"}}"

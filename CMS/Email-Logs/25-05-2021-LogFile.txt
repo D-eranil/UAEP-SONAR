@@ -1,0 +1,16 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)

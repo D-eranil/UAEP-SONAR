@@ -1,0 +1,45 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <ImportTransIntegration xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <importWebSiteData>
+                <Loyaltycustomer xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <customerEntryno></customerEntryno>
+                    <customerNo></customerNo>
+                    <customerContactno></customerContactno>
+                    <customerMobileno></customerMobileno>
+                    <customerLoyaltycustomer></customerLoyaltycustomer>
+                    <customerClubcode></customerClubcode>
+                    <customerSchemecode></customerSchemecode>
+                    <customerName></customerName>
+                    <customerName2></customerName2>
+                    <customerAddress></customerAddress>
+                    <customerAddress2></customerAddress2>
+                    <customerCity></customerCity>
+                    <customerCountry></customerCountry>
+                    <customerPhoneno></customerPhoneno>
+                    <customerEmail></customerEmail>
+                    <customerPostcode></customerPostcode>
+                </Loyaltycustomer>
+                <TransactionHeader xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <headerReceiptNo>WR281027326006</headerReceiptNo>
+                    <headerStoreNo>S1001</headerStoreNo>
+                    <headerTansactionDate>2021-07-06</headerTansactionDate>
+                    <headerTransactionTime>14:57:52</headerTransactionTime>
+                    <headerOriginialDate>2021-07-05</headerOriginialDate>
+                    <headerNoOfItem>0</headerNoOfItem>
+                    <headerNoofItemLines></headerNoofItemLines>
+                    <headerMembeCardNo></headerMembeCardNo>
+                    <headerCustomerNo></headerCustomerNo>
+                    <headerNetAmount>20</headerNetAmount>
+                    <headerVATAmount></headerVATAmount>
+                    <headerGrossAmount>20</headerGrossAmount>
+                    <headerDiscountAmount>1</headerDiscountAmount>
+                    <headerTenderType>Online Payment</headerTenderType>
+                    <headerPaymentAmount>20</headerPaymentAmount>
+					<headerNetPrice>20</headerNetPrice>
+                    
+                </TransactionHeader>
+            </importWebSiteData>
+        </ImportTransIntegration>
+    </Body>
+</Envelope>

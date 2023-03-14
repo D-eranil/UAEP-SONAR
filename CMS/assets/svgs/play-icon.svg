@@ -1,0 +1,19 @@
+<svg id="play" xmlns="http://www.w3.org/2000/svg" width="85.85" height="85.844" viewBox="0 0 85.85 85.844">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbf9f4;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #5ca133;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_8_copy" data-name="Ellipse 8 copy" class="cls-1" d="M1745.95,468.281a42.922,42.922,0,1,1-42.92,42.922A42.917,42.917,0,0,1,1745.95,468.281Z" transform="translate(-1703.03 -468.281)"/>
+  <path id="Triangle_1_copy" data-name="Triangle 1 copy" class="cls-2" d="M1762.1,511.2l-23.96-13.976v27.952L1762.1,511.2" transform="translate(-1703.03 -468.281)"/>
+</svg>

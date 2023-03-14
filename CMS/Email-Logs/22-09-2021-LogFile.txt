@@ -1,0 +1,78 @@
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 259
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.Collections.Generic.List`1[ApiLibrary.Model.BarcodeTicketItem] EntryTicket(System.Collections.Generic.List`1[ApiLibrary.Helper.GetPriceTicketData])
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 259
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)

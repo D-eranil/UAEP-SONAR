@@ -1,0 +1,168 @@
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 243
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 68
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)

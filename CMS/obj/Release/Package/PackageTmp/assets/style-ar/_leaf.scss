@@ -1,0 +1,216 @@
+.leaf-one{
+  position: absolute;
+  left: 0;
+  top: em(-100);
+  width: em(191);
+  z-index: 2;
+  img{
+    padding-top: em(150);
+  }
+}
+.leaf-two{
+  position: absolute;
+  left: em(300);
+  right: 0;
+  margin: 0 auto;
+  top: em(-120);
+  width: em(119);
+  padding: 0 0 0 0;
+  img{
+    padding: em(80) 0 0 0;
+  }
+}
+.leaf-three{
+  position: absolute;
+  left: 15%;
+  right: auto;
+  margin: 0 auto;
+  bottom: em(-100);
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+.wisdom-leaf{
+  position: absolute;
+  right: 8%;
+  left: auto;
+  margin: 0 auto;
+  top: 55%;
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+.activity-leaf{
+  position: absolute;
+  top: em(-140);
+  right: em(-50);
+}
+
+.special-offer-leaf{
+  position: absolute;
+  top: em(150);
+  right: em(-50);
+}
+
+.footer-leaf-1{
+  position: absolute;
+  left: 11%;
+  right: auto;
+  margin: 0 auto;
+  top: 0;
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+.footer-leaf-2{
+  position: absolute;
+  right: 10%;
+  left: auto;
+  margin: 0 auto;
+  bottom: 60%;
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+.inner-leaf-one{
+  position: absolute;
+  left: 0;
+  top: em(100);
+  width: em(191);
+}
+.inner-leaf-two{
+  position: absolute;
+  left: auto;
+  right: em(120);
+  margin: 0 auto;
+  top: em(280);
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(80) 0 0 0;
+  }
+}
+.about-leaf{
+  position: absolute;
+  bottom: em(50);
+  left: em(120);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.contact-leaf-1{
+  position: absolute;
+  left: em(-60);
+  right: auto;
+  margin: 0 auto;
+  top: 20%;
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+.contact-leaf-2{
+  position: absolute;
+  right: em(-60);
+  left: auto;
+  margin: 0 auto;
+  bottom: 20%;
+  width: em(119);
+  padding: 0 0 0 0;
+  z-index: -1;
+  img{
+    padding: em(40) 0 0 0;
+  }
+}
+
+
+.ie{
+  .activity-leaf{
+    top: em(-75);
+  }
+  .special-offer-leaf{
+    top: em(80);
+  }
+}
+
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) { }
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .special-offer-leaf{
+    width: em(130);
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .activity-leaf{
+    top: em(-100);
+  }
+  .special-offer-leaf{
+    position: absolute;
+    top: em(100);
+    width: em(130);
+  }
+  .inner-leaf-two{
+    top: em(200);
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .activity-leaf{
+    top: em(-75);
+    width: em(150);
+  }
+  .special-offer-leaf{
+    width: em(130);
+    right: em(-20);
+    top: em(100);
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .leaf-one, .leaf-two,
+  .leaf-three, .wisdom-leaf,
+  .activity-leaf, .special-offer-leaf,
+  .footer-leaf-1, .footer-leaf-2,
+  .inner-leaf-one, .inner-leaf-two,
+  .about-leaf, .contact-leaf-1{
+    display: none;
+  }
+
+}

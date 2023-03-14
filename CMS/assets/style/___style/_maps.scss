@@ -1,0 +1,274 @@
+.map-page{
+  padding-bottom: em(50);
+  .about-us-tree{
+    top: em(400);
+    bottom: auto;
+    z-index: -1;
+  }
+}
+.map-content-box{
+  background: #f4f3f0;
+  padding: em(45) em(60) em(80) em(70);
+  margin: 0 em(8);
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    top: em(-5);
+    bottom: em(-5);
+    left: em(-8);
+    right: em(-8);
+    background: url("/assets/images/map-frame.png") no-repeat center center / 100% 100%;
+    z-index: -1;
+  }
+  h4{
+    color: $primary;
+    &.border-bottom{
+      margin-top: em(5);
+      padding: 0 0 em(14);
+    }
+  }
+  .leaf-three{
+    top: 0;
+    bottom: auto;
+    left: em(-70);
+  }
+  .wisdom-leaf{
+    top: 30%;
+    bottom: auto;
+    right: em(-60);
+  }
+}
+.legends-list{
+  list-style: none;
+  display: flex;
+  margin: 0 0 em(30);
+  padding: 0;
+  //justify-content: space-between;
+  li{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 em(20) 0 0;
+    h5{
+      color: $primary;
+      font-weight: 300;
+      margin: 0 0 em(8) 0;
+      font-size: 15px;
+    }
+    span{
+      display: block;
+      width: 100%;
+      &.pathways{
+        height: em(5);
+        box-shadow: 1px 1px 3px 0px rgba($black, 0.8);
+      }
+      &.streets{
+        height: em(5);
+        background: #7e8083;
+      }
+      &.boundary{
+        height: em(5);
+        border-bottom: 5px dashed #b1b178;
+      }
+      &.park{
+        height: em(23);
+        background: #bbd9bb;
+      }
+      &.car-park{
+        height: em(23);
+        background: #929496;
+      }
+      &.road-median{
+        height: em(23);
+        background: #c9c9a9;
+      }
+    }
+
+  }
+}
+.map-img-box{
+  position: relative;
+  top: em(20);
+  z-index: 1;
+  -webkit-mask-image: url(/assets/svgs/map-img-bg.svg);
+  mask-image: url(/assets/svgs/map-img-bg.svg);
+  mask-mode: luminance;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  .panzoom{
+    .zoom-img{
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .zoom-btn{
+    position: absolute;
+    right: em(-45);
+    bottom: em(50);
+    background: $primary;
+    border: 1px solid $white;
+    border-radius: em(25);
+    width: em(45);
+    padding: 0 0 0;
+    overflow: hidden;
+    @include transitions(0.7s);
+    transition-delay: 1.2s;
+    z-index: 2;
+    a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: em(43);
+      @include transitions(0.5s);
+      span{
+        font-size: em(18);
+      }
+      &.zoom-plus{
+        padding:em(7) 0 0;
+        border-bottom: 1px solid rgba($white, 0.26);
+      }
+    }
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: $primary;
+    z-index: 3;
+    @include transitions(1s);
+  }
+  &.map-open{
+    opacity: 1;
+    &:before{
+      width: 0;
+    }
+    .zoom-btn{
+      right: em(45);
+    }
+  }
+}
+.interest-list{
+  margin: 0 0 em(60);
+  padding: 0;
+  list-style: none;
+  li{
+    position: relative;
+    padding: 0 em(8) 0 em(55);
+    margin: 0 0 em(15);
+    min-height: em(40);
+    i{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: em(39);
+      height: em(39);
+      font-style: normal;
+    }
+    .list-count{
+      position: absolute;
+      //display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #8b8a68;
+      font-style: normal;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 2.5;
+      @include border-radius(50%);
+    }
+    p{
+      color: $primary;
+      padding: em(3) 0 0;
+      margin: 0;
+    }
+  }
+}
+.mac{
+  .map-content-box{
+    .pr-5{
+      padding-right: em(0) !important;
+    }
+  }
+}
+
+
+
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) { }
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .map-img-box {
+    .zoom-btn {
+      a{
+        &:hover{
+          background: $white;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .map-content-box{
+    padding: em(45) em(30) em(80) em(30);
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .map-content-box{
+    padding: em(45) em(30) em(80) em(30);
+  }
+  .interest-list{
+    li{
+      .list-count{
+        line-height: 2.8;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .map-content-box{
+    padding: em(45) em(30) em(30) em(30);
+  }
+  .legends-list {
+    display: block;
+    li {
+      margin-bottom: em(20);
+    }
+  }
+  .interest-list{
+    li{
+      .list-count{
+        line-height: 2.9;
+      }
+    }
+  }
+}

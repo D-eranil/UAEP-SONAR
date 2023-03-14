@@ -1,0 +1,3 @@
+
+ ---------------------------- 8/26/2021 1:42:19 PM ---------------------------------
+{"Registration":{"Currency":"AED","ReturnPath":"http://uaep.dev.local/en/Test","TransactionHint":"CPT:Y;VCC:Y;","OrderID":"02777","Store":null,"Terminal":null,"Channel":"Web","Amount":"20","Customer":"Demo Merchant","OrderName":"Paybill","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}

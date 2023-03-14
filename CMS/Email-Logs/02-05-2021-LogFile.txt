@@ -1,0 +1,42 @@
+System.InvalidOperationException: A circular reference was detected while serializing an object of type 'System.Reflection.RuntimeModule'.
+   at PaymentFinalizepost.GetCustomTableData(String orderID) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 167
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 51
+Void SerializeValueInternal(System.Object, System.Text.StringBuilder, Int32, System.Collections.Hashtable, SerializationFormat, System.Reflection.MemberInfo)
+   at PaymentFinalizepost.GetCustomTableData(String orderID) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 167
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 51
+System.InvalidOperationException: A circular reference was detected while serializing an object of type 'System.Reflection.RuntimeModule'.
+   at PaymentFinalizepost.GetCustomTableData(String orderID) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 167
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 51
+Void GetCustomTableData(System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 167
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 51
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.String GetCustomTableData(System.String, System.String, System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.String GetCustomTableData(System.String, System.String, System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.String GetCustomTableData(System.String, System.String, System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.String GetCustomTableData(System.String, System.String, System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52
+System.String GetCustomTableData(System.String, System.String, System.String)
+   at PaymentFinalizepost.GetCustomTableData(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 183
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 52

@@ -1,0 +1,398 @@
+.activity-experiences-sec{
+  padding: em(50) 0 em(45);
+  position: relative;
+  z-index: 2;
+  .bg-svg-2{
+    position: absolute;
+    width: em(1046);
+    height: em(634);
+    max-height:100%;
+    max-width: 100%;
+    left: em(-120);
+    bottom: 0;
+    opacity: 0.1;
+    img{
+      width: 100%;
+    }
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      right: 0;
+      top: 0;
+      background: $primary;
+      @include transitions(0.8s);
+    }
+    &.show-effect{
+      &:before{
+        width: 0;
+      }
+    }
+  }
+  .inner-content-sec{
+    padding: em(100) 0 em(60) 0;
+  }
+  .grid{
+    z-index: 2;
+  }
+}
+
+.activity-bg-div{
+  background: #67a641;
+  position: absolute;
+  right: 0;
+  left: auto;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+  border: 30px solid transparent;
+  border-left: 0;
+  border-right: 0;
+  border-image: url('/assets/images/border-img.jpg') 33 round;
+  &:before {
+    content: '';
+    width: 33px;
+    height: calc( 100% + 33px );
+    background: url('/assets/images/border-img-left.jpg') repeat-y;
+    position: absolute;
+    left: em(-30);
+    top: -16px;
+    background-position: top left;
+    background-size: 200% auto;
+  }
+}
+
+.inner-content-sec{
+  position: relative;
+  z-index: 2;
+  padding: em(100) 0;
+}
+
+.activity-meta-sec{
+  padding-left: em(175);
+}
+
+.activity-slider-main{
+  overflow: hidden;
+  padding-bottom: em(90);
+}
+
+
+.activity-slider{
+  position: relative;
+  left: em(45);
+  //width: calc( 100% + 10em );
+  width: 73%;
+  max-width: em(615);
+  .activity-slide{
+    padding: em(30) em(100) em(30) em(30);
+    max-width: em(615);
+    .img-wrap{
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      margin-bottom: em(40);
+      &:before{
+        content: '';
+        position: absolute;
+        top: em(-5);
+        bottom: em(-5);
+        left: em(-25);
+        right: em(-15);
+        margin: auto;
+        background: transparent url('/assets/images/activity-image-frame.png');
+        background-size: 100% 100%;
+        z-index: 2;
+      }
+      &:after{
+        position: absolute;
+        content: '';
+        left: 4px;
+        top: 4px;
+        right: 4px;
+        bottom: 4px;
+        background: rgba($primary, 0.4);
+        opacity: 0;
+        z-index: 1;
+        @include transitions(0.5s);
+      }
+      img{
+        width: 100%;
+      }
+      a{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+      }
+    }
+    .text-wrap-div{
+      /*.read-more-link{
+        color: $white;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+        padding-right: em(15);
+        &:before{
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          left: auto;
+          right: em(-90);
+          top: 0;
+          bottom: 0;
+          border-top: em(5) solid transparent;
+          border-right: em(6) solid #fff;
+          border-bottom: em(5) solid transparent;
+          margin: auto;
+          border-left: em(6) solid #fff;
+          border-right: transparent;
+          @include transitions(.5s);
+        }
+        &:after{
+          position: absolute;
+          content: '';
+          width: em(70);
+          height: 1px;
+          background: #fff;
+          top: 0;
+          right: em(-70);
+          left: auto;
+          bottom: 0;
+          margin: auto;
+          @include transitions(.5s);
+        }
+      }*/
+    }
+  }
+  .slick-arrow{
+    width: em(50);
+    height: em(50);
+    position: absolute;
+    border: 1px solid $white;
+    margin: auto;
+    top:auto;
+    bottom:em(-75);
+    left: em(30);
+    cursor: pointer;
+    @include borderRadius(50%);
+    z-index: 2;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      border-top: em(6) solid transparent;
+      border-right: em(9) solid $white;
+      border-bottom: em(6) solid transparent;
+      margin: auto;
+      @include transitions(0.5s);
+    }
+    &:after{
+      position: absolute;
+      content: '';
+      width: em(20);
+      height: 1px;
+      background: $white;
+      top: 0;
+      left: em(36);
+      bottom: 0;
+      margin: auto;
+      display: none;
+      @include transitions(0.5s);
+    }
+    &.activity-arrow-right{
+      left: em(110);
+      &:before{
+        border-left: em(9) solid $white;
+        border-right: transparent;
+      }
+      &:after{
+        left: auto;
+        right: em(36);
+      }
+    }
+  }
+  .slick-list{
+   overflow: visible;
+  }
+}
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) { }
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .activity-slider{
+    width: 80%;
+    max-width: em(700);
+    .activity-slide{
+      max-width: em(700);
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .activity-slider{
+    .slick-arrow{
+      &:after{
+        display: block;
+      }
+      &:hover{
+        &:before{
+          border-right-color: $primary;
+        }
+        &:after{
+          left: em(25);
+          width: 0;
+        }
+      }
+      &.activity-arrow-right{
+        &:hover{
+          &:before{
+            border-left-color: $primary;
+          }
+          &:after{
+            left: auto;
+            right: em(25);
+          }
+        }
+      }
+    }
+    .text-wrap-div {
+      /*.read-more-link {
+        &:hover {
+          &:after {
+            right: em(-85);
+          }
+        }
+      }*/
+    }
+    .activity-slide {
+      .img-wrap {
+        &:hover{
+          &:after{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .activity-experiences-sec{
+    padding: em(85) 0 em(45);
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .activity-meta-sec{
+    padding-left: em(60);
+  }
+  .activity-slider{
+    left: em(0);
+  }
+  .activity-experiences-sec{
+    .inner-content-sec{
+      padding: em(120) 0 em(120) 0;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .activity-meta-sec{
+    padding-left: 0;
+  }
+  .activity-bg-div{
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    &:before{
+      display: none;
+    }
+  }
+  .activity-slider{
+    left: auto;
+    margin-top: em(60);
+    width: 100%;
+    .activity-slide{
+      padding: 0;
+      text-align: left;
+      max-width: none;
+      width: 100%;
+    }
+    .slick-arrow{
+      bottom: em(-120);
+      left: 0;
+      &.activity-arrow-right{
+        left: em(75);
+      }
+    }
+  }
+  .inner-content-sec{
+    text-align: center;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .activity-meta-sec{
+    padding-left: 0;
+  }
+  .activity-bg-div{
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    &:before{
+      display: none;
+    }
+  }
+  .activity-slider{
+    left: auto;
+    margin-top: em(60);
+    width: 100%;
+    .activity-slide{
+      padding: 0;
+      text-align: left;
+      max-width: none;
+      width: 100%;
+    }
+    .slick-arrow{
+      bottom: em(-85);
+      left: 0;
+      &.activity-arrow-right{
+        left: em(75);
+      }
+    }
+  }
+  .inner-content-sec{
+    text-align: center;
+  }
+  .activity-meta-sec .btn{
+    margin-left: 0;
+  }
+}
+
+

@@ -1,0 +1,848 @@
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0096.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 345
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 345
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [DX2P273CA0015.AREP273.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0111.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0083.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\windows\system32\inetsrv\~\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [DXXP273CA0022.AREP273.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 344
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 357
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 362
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 362
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 362
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 362
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\UaepTickets\GenerateBarCode.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 378
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [PR0P264CA0080.FRAP264.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 392
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 392
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZRAP278CA0018.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 399
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 399
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [SG2P153CA0008.APCP153.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 445
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 445
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZRAP278CA0003.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 446
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 446
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0090.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 448
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 448
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0088.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 448
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 448
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.IO.FileNotFoundException: Could not load file or assembly 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+
+=== Pre-bind state information ===
+LOG: DisplayName = Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/
+LOG: Initial PrivatePath = D:\Tfs Azure Development\Uaep\Solution\Website\CMS\bin
+Calling assembly : ApiLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\Tfs Azure Development\Uaep\Solution\Website\CMS\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.EXE.
+
+Void GeneratePDFFile()
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+System.IO.FileNotFoundException: Could not load file or assembly 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+Void GeneratePDFFile()
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+System.IO.FileNotFoundException: Could not load file or assembly 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+
+=== Pre-bind state information ===
+LOG: DisplayName = Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/
+LOG: Initial PrivatePath = D:\Tfs Azure Development\Uaep\Solution\Website\CMS\bin
+Calling assembly : ApiLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\Tfs Azure Development\Uaep\Solution\Website\CMS\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.EXE.
+
+Void GeneratePDFFile()
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+System.IO.FileNotFoundException: Could not load file or assembly 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+
+=== Pre-bind state information ===
+LOG: DisplayName = Rotativa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/
+LOG: Initial PrivatePath = D:\Tfs Azure Development\Uaep\Solution\Website\CMS\bin
+Calling assembly : ApiLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\Tfs Azure Development\Uaep\Solution\Website\CMS\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/Rotativa/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/Rotativa/Rotativa.EXE.
+
+Void GeneratePDFFile()
+   at ApiLibrary.Helper.GeneratePDF.GeneratePDFFile()
+   at PaymentFinalizepost.GenerateBarCode(String barcode) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 196
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 70
+System.IO.FileNotFoundException: Could not load file or assembly 'itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca' or one of its dependencies. The system cannot find the file specified.
+File name: 'itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca'
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+
+=== Pre-bind state information ===
+LOG: DisplayName = itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca
+ (Fully-specified)
+LOG: Appbase = file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/
+LOG: Initial PrivatePath = D:\Tfs Azure Development\Uaep\Solution\Website\CMS\bin
+Calling assembly : ApiLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\Tfs Azure Development\Uaep\Solution\Website\CMS\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/itextsharp.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/itextsharp/itextsharp.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/itextsharp.DLL.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/itextsharp/itextsharp.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/itextsharp.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Temporary ASP.NET Files/root/3e613cc0/d0b0c315/itextsharp/itextsharp.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/itextsharp.EXE.
+LOG: Attempting download of new URL file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/bin/itextsharp/itextsharp.EXE.
+
+Void ExportPdf(System.String, System.String)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.IO.FileNotFoundException: Could not load file or assembly 'itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca' or one of its dependencies. The system cannot find the file specified.
+File name: 'itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca'
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+
+=== Pre-bind state information ===
+LOG: DisplayName = itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca
+ (Fully-specified)
+LOG: Appbase = file:///D:/Tfs Azure Development/Uaep/Solution/Website/CMS/
+LOG: Initial PrivatePath = D:\Tfs Azure Development\Uaep\Solution\Website\CMS\bin
+Calling assembly : ApiLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\Tfs Azure Development\Uaep\Solution\Website\CMS\web.config
+LOG: Using host configuration file: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+Void ExportPdf(System.String, System.String)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.WebException: Could not find a part of the path 'c:\~\assets\img\background.jpg'. ---> System.Net.WebException: Could not find a part of the path 'c:\~\assets\img\background.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\~\assets\img\background.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at iTextSharp.text.Image.GetInstance(Uri url)
+   at iTextSharp.text.Image.GetInstance(String filename)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.StartElement(String tag, Hashtable h)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.ProcessTag(Boolean start)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Go(TextReader reader)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Parse(ISimpleXMLDocHandler doc, ISimpleXMLDocHandlerComment comment, TextReader r, Boolean html)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.Parse(TextReader reader)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style, Hashtable interfaceProps)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style)
+   at ApiLibrary.Helper.HtmlToPdfBuilder.RenderPdf()
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at iTextSharp.text.Image.GetInstance(Uri url)
+   at iTextSharp.text.Image.GetInstance(String filename)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.StartElement(String tag, Hashtable h)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.ProcessTag(Boolean start)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Go(TextReader reader)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Parse(ISimpleXMLDocHandler doc, ISimpleXMLDocHandlerComment comment, TextReader r, Boolean html)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.Parse(TextReader reader)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style, Hashtable interfaceProps)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style)
+   at ApiLibrary.Helper.HtmlToPdfBuilder.RenderPdf()
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+----------------------- Inner Exception ------------------------------
+System.Net.WebException: Could not find a part of the path 'c:\~\assets\img\background.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\~\assets\img\background.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+Void .ctor(System.Net.FileWebRequest, System.Uri, System.IO.FileAccess, Boolean)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+----------------------- Inner Exception ------------------------------
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\~\assets\img\background.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+System.Net.WebException: Could not find file 'c:\Fuck u'. ---> System.Net.WebException: Could not find file 'c:\Fuck u'. ---> System.IO.FileNotFoundException: Could not find file 'c:\Fuck u'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at iTextSharp.text.Image.GetInstance(Uri url)
+   at iTextSharp.text.Image.GetInstance(String filename)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.StartElement(String tag, Hashtable h)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.ProcessTag(Boolean start)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Go(TextReader reader)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Parse(ISimpleXMLDocHandler doc, ISimpleXMLDocHandlerComment comment, TextReader r, Boolean html)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.Parse(TextReader reader)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style, Hashtable interfaceProps)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style)
+   at ApiLibrary.Helper.HtmlToPdfBuilder.RenderPdf()
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at iTextSharp.text.Image.GetInstance(Uri url)
+   at iTextSharp.text.Image.GetInstance(String filename)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.StartElement(String tag, Hashtable h)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.ProcessTag(Boolean start)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Go(TextReader reader)
+   at iTextSharp.text.xml.simpleparser.SimpleXMLParser.Parse(ISimpleXMLDocHandler doc, ISimpleXMLDocHandlerComment comment, TextReader r, Boolean html)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.Parse(TextReader reader)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style, Hashtable interfaceProps)
+   at iTextSharp.text.html.simpleparser.HTMLWorker.ParseToList(TextReader reader, StyleSheet style)
+   at ApiLibrary.Helper.HtmlToPdfBuilder.RenderPdf()
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+----------------------- Inner Exception ------------------------------
+System.Net.WebException: Could not find file 'c:\Fuck u'. ---> System.IO.FileNotFoundException: Could not find file 'c:\Fuck u'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+Void .ctor(System.Net.FileWebRequest, System.Uri, System.IO.FileAccess, Boolean)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+----------------------- Inner Exception ------------------------------
+System.IO.FileNotFoundException: Could not find file 'c:\Fuck u'.
+File name: 'c:\Fuck u'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+System.UnauthorizedAccessException: Access to the path 'c:\windows\system32\inetsrv\xyz' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.UnauthorizedAccessException: Access to the path 'D:\Tfs Azure Development\Uaep\Solution\Website\CMS\UaepTickets' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+Void WinIOError(Int32, System.String)
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at ApiLibrary.Helper.PDFHelper.ExportPdf(String template, String fileName)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 199
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Web.HttpException (0x80004005): 'D:/Tfs Azure Development/Uaep/Solution/Website/CMS/UaepTickets' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+Void CheckValidVirtualPath(System.String)
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Web.HttpException (0x80004005): 'D:/Tfs Azure Development/Uaep/Solution/Website/CMS/UaepTickets' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+Void CheckValidVirtualPath(System.String)
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0147.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 406
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 406
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0125.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 405
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 405
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42

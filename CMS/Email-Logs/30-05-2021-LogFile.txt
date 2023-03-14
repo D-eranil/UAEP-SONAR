@@ -1,0 +1,143 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: s
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 152
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 152
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: Invalid length for a Base-64 char array or string.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Int32 FromBase64_Decode(Char*, Int32, Byte*, Int32)
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\FormPictures\MyImage.jpg'.
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 153
+   at post.EntryTicketSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41

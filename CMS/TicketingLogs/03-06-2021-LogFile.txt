@@ -1,0 +1,18 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String itemNo) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 153
+   at ImportTransactionApipost.CallImportTransactionFinalizeCard() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\ImportTransactionApipost.aspx.cs:line 45

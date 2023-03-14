@@ -1,0 +1,20 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 132
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 132
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 136
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 136
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 136
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at GetPriceApi.GetPriceXmlApi(String requestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 136

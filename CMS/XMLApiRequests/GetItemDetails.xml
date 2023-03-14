@@ -1,0 +1,9 @@
+﻿
+                   <GetItemDetails>
+                        <RequestId>$RequestId$</RequestId>
+                        <RequestDate>$RequestDate$</RequestDate>
+                        <RequestTime>$RequestTime$</RequestTime>
+                        <ItemNo>$RequestItem$</ItemNo>
+                        <Quantity>$RequestQuantity$</Quantity>
+                    </GetItemDetails>
+               

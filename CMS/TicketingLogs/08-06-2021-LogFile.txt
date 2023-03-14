@@ -1,0 +1,36 @@
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+Void SaveEntryTicket()
+   at post.SaveEntryTicket() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 206
+   at post.LoyaltyCardSubmit() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\post.aspx.cs:line 41
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 59

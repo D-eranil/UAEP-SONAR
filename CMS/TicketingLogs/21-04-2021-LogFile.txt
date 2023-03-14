@@ -1,0 +1,16 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 58
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 58
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 58
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at GetPriceApi.GetPriceXmlApi() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 58

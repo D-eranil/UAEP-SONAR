@@ -1,0 +1,49 @@
+.sitemap{
+  margin-bottom: 0;
+  padding-right: em(30);
+  li{
+    list-style-type: none;
+    margin-bottom: em(15);
+    a{
+      color: $white;
+      font-size: em(18);
+      margin-bottom: 0;
+      text-transform: capitalize;
+      @include transitions(0.5s);
+      &:before{
+        content: "";
+        width: 0;
+        height: 1px;
+        background: #FFF;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        @include transitions(0.5s);
+      }
+      &:hover, &:focus{
+        text-decoration: none;
+        &:before{
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+    p {
+      color: #FFF;
+      display: inline-block;
+    }
+    ul{
+      border-right: 2px solid $white;
+      margin-right: em(13);
+      padding-right: em(16);
+      padding-top: em(20);
+      margin-bottom: em(17);
+      margin-top: em(12);
+      li{
+        ul{
+          border-right: 2px solid $white;
+        }
+      }
+    }
+  }
+}

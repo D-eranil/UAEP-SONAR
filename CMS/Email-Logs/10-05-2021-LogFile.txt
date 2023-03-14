@@ -1,0 +1,188 @@
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0010.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 405
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 405
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at ApiLibrary.Helper.PDFHelper.generatePDF()
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+Void generatePDF()
+   at ApiLibrary.Helper.PDFHelper.generatePDF()
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 201
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+----------------------- Inner Exception ------------------------------
+System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+Void StartSendAuthResetSignal(System.Net.Security.ProtocolToken, System.Net.AsyncProtocolRequest, System.Exception)
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [ZR0P278CA0058.CHEP278.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 406
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 406
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.Net.WebException: The operation has timed out
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 223
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.String GeneratePDF(ApiLibrary.Model.PdfTicketData)
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 223
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.String GeneratePDF(ApiLibrary.Model.PdfTicketData)
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 69
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. [FR3P281CA0016.DEUP281.PROD.OUTLOOK.COM]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 420
+Void CheckResponse(System.Net.Mail.SmtpStatusCode, System.String)
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at PaymentFinalizepost.EmailSender.SendEmail(String from, String toEmail, String ccEmail, String subject, String body, String bccEmail, String attachmentFilePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 420
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 135
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 42
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.Net.WebException: The operation has timed out
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 61
+System.String GeneratePDF(ApiLibrary.Model.PdfTicketData)
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 61
+System.Net.WebException: The operation has timed out
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 61
+System.String GeneratePDF(ApiLibrary.Model.PdfTicketData)
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 232
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 61
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43
+System.String CallImportTransactionApi(System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 136
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 43

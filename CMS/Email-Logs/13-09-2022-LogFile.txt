@@ -1,0 +1,22 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 302
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 88
+System.String GeneratePDF(ApiLibrary.Model.PdfTicketData)
+   at ApiLibrary.Helper.PDFHelper.GeneratePDF(PdfTicketData pdfTicketData)
+   at PaymentFinalizepost.EntryTicket(List`1 ticketData) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 302
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\PaymentFinalizepost.aspx.cs:line 88
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)

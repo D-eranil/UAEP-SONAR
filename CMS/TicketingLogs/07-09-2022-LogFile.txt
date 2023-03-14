@@ -1,0 +1,143 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+Void Page_Load(System.Object, System.EventArgs)
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 62
+System.Exception: 
+[DataConnection.HandleError]: 
+
+Query: 
+SELECT TOP 1 *
+FROM CMS_Class
+WHERE [ClassName] = @ClassName
+
+Caused exception: 
+Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadUInt32(UInt32& value)
+   at System.Data.SqlClient.TdsParserStateObject.TryReadPlpLength(Boolean returnPlpNullIfNull, UInt64& lengthLeft)
+   at System.Data.SqlClient.TdsParser.TryReadPlpUnicodeChars(Char[]& buff, Int32 offst, Int32 len, TdsParserStateObject stateObj, Int32& totalCharsRead)
+   at System.Data.SqlClient.TdsParser.TryReadSqlStringValue(SqlBuffer value, Byte type, Int32 length, Encoding encoding, Boolean isPlp, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TryReadSqlValue(SqlBuffer value, SqlMetaDataPriv md, Int32 length, TdsParserStateObject stateObj, SqlCommandColumnEncryptionSetting columnEncryptionOverride, String columnName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumnInternal(Int32 i, Boolean readHeaderOnly)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at CMS.DataEngine.AbstractDataConnection.ExecuteQuery(String queryText, QueryDataParameters queryParams, QueryTypeEnum queryType, Boolean requiresTransaction)
+   --- End of inner exception stack trace ---
+   at CMS.DataEngine.AbstractDataConnection.HandleError(String queryText, Exception ex)
+   at CMS.DataEngine.AbstractDataConnection.ExecuteQuery(String queryText, QueryDataParameters queryParams, QueryTypeEnum queryType, Boolean requiresTransaction)
+   at CMS.DataEngine.GeneralConnection.RunQuery(QueryParameters query)
+   at CMS.DataEngine.GeneralConnection.RunQueryWithRetry(QueryParameters query, Int32 retryCount)
+   at CMS.DataEngine.GeneralConnection.ExecuteQuery(QueryParameters query, Int32& totalRecords)
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDBInternal()
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDB()
+   at CMS.DataEngine.DataQueryBase`1.GetData()
+   at CMS.DataEngine.DataQueryBase`1.get_Result()
+   at CMS.DataEngine.ObjectQueryBase`2.GetResults(IDataQuery query, Int32& totalRecords)
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDB()
+   at CMS.DataEngine.DataQueryBase`1.GetData()
+   at CMS.DataEngine.ObjectQueryBase`2.GetData()
+   at CMS.DataEngine.DataQueryBase`1.get_Result()
+   at CMS.DataEngine.DataClassInfoProviderBase`1.GetInfoByColumn[T](String columnName, T value)
+   at CMS.DataEngine.AbstractInfoProvider`3.GetInfoByCodeName(String codeName, Boolean useHashtable)
+   at CMS.CustomTables.CustomTableModule.AbstractProvider_LoadProvider(Object sender, LoadProviderEventArgs e)
+   at CMS.DataEngine.InfoProviderLoader.OnLoadProvider.Invoke(Object sender, LoadProviderEventArgs e)
+   at CMS.DataEngine.InfoProviderLoader.GetInfoProvider(String objectType, Boolean exceptionIfNotFound)
+   at CMS.DataEngine.InfoProviderLoader.GetInfoProvider[TProvider](String objectType, Boolean exceptionIfNotFound)
+   at CMS.CustomTables.CustomTableItemProvider.GetItems(String className)
+   at GetPriceApi.GetPriceXmlChildFile(String itemNo, String qty) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 96
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 56
+Boolean HandleError(System.String, System.Exception)
+   at CMS.DataEngine.AbstractDataConnection.HandleError(String queryText, Exception ex)
+   at CMS.DataEngine.AbstractDataConnection.ExecuteQuery(String queryText, QueryDataParameters queryParams, QueryTypeEnum queryType, Boolean requiresTransaction)
+   at CMS.DataEngine.GeneralConnection.RunQuery(QueryParameters query)
+   at CMS.DataEngine.GeneralConnection.RunQueryWithRetry(QueryParameters query, Int32 retryCount)
+   at CMS.DataEngine.GeneralConnection.ExecuteQuery(QueryParameters query, Int32& totalRecords)
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDBInternal()
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDB()
+   at CMS.DataEngine.DataQueryBase`1.GetData()
+   at CMS.DataEngine.DataQueryBase`1.get_Result()
+   at CMS.DataEngine.ObjectQueryBase`2.GetResults(IDataQuery query, Int32& totalRecords)
+   at CMS.DataEngine.DataQueryBase`1.GetDataFromDB()
+   at CMS.DataEngine.DataQueryBase`1.GetData()
+   at CMS.DataEngine.ObjectQueryBase`2.GetData()
+   at CMS.DataEngine.DataQueryBase`1.get_Result()
+   at CMS.DataEngine.DataClassInfoProviderBase`1.GetInfoByColumn[T](String columnName, T value)
+   at CMS.DataEngine.AbstractInfoProvider`3.GetInfoByCodeName(String codeName, Boolean useHashtable)
+   at CMS.CustomTables.CustomTableModule.AbstractProvider_LoadProvider(Object sender, LoadProviderEventArgs e)
+   at CMS.DataEngine.InfoProviderLoader.OnLoadProvider.Invoke(Object sender, LoadProviderEventArgs e)
+   at CMS.DataEngine.InfoProviderLoader.GetInfoProvider(String objectType, Boolean exceptionIfNotFound)
+   at CMS.DataEngine.InfoProviderLoader.GetInfoProvider[TProvider](String objectType, Boolean exceptionIfNotFound)
+   at CMS.CustomTables.CustomTableItemProvider.GetItems(String className)
+   at GetPriceApi.GetPriceXmlChildFile(String itemNo, String qty) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 96
+   at GetPriceApi.Page_Load(Object sender, EventArgs e) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\GetPriceApi.aspx.cs:line 56
+----------------------- Inner Exception ------------------------------
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadUInt32(UInt32& value)
+   at System.Data.SqlClient.TdsParserStateObject.TryReadPlpLength(Boolean returnPlpNullIfNull, UInt64& lengthLeft)
+   at System.Data.SqlClient.TdsParser.TryReadPlpUnicodeChars(Char[]& buff, Int32 offst, Int32 len, TdsParserStateObject stateObj, Int32& totalCharsRead)
+   at System.Data.SqlClient.TdsParser.TryReadSqlStringValue(SqlBuffer value, Byte type, Int32 length, Encoding encoding, Boolean isPlp, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TryReadSqlValue(SqlBuffer value, SqlMetaDataPriv md, Int32 length, TdsParserStateObject stateObj, SqlCommandColumnEncryptionSetting columnEncryptionOverride, String columnName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumnInternal(Int32 i, Boolean readHeaderOnly)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at CMS.DataEngine.AbstractDataConnection.ExecuteQuery(String queryText, QueryDataParameters queryParams, QueryTypeEnum queryType, Boolean requiresTransaction)
+ClientConnectionId:cfc0c149-255d-4bb8-9a42-d9e0f9337d21
+Error Number:-2,State:0,Class:11
+Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadUInt32(UInt32& value)
+   at System.Data.SqlClient.TdsParserStateObject.TryReadPlpLength(Boolean returnPlpNullIfNull, UInt64& lengthLeft)
+   at System.Data.SqlClient.TdsParser.TryReadPlpUnicodeChars(Char[]& buff, Int32 offst, Int32 len, TdsParserStateObject stateObj, Int32& totalCharsRead)
+   at System.Data.SqlClient.TdsParser.TryReadSqlStringValue(SqlBuffer value, Byte type, Int32 length, Encoding encoding, Boolean isPlp, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TryReadSqlValue(SqlBuffer value, SqlMetaDataPriv md, Int32 length, TdsParserStateObject stateObj, SqlCommandColumnEncryptionSetting columnEncryptionOverride, String columnName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumnInternal(Int32 i, Boolean readHeaderOnly)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValues(Object[] values)
+   at System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at CMS.DataEngine.AbstractDataConnection.ExecuteQuery(String queryText, QueryDataParameters queryParams, QueryTypeEnum queryType, Boolean requiresTransaction)
+----------------------- Inner Exception ------------------------------
+System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+
+

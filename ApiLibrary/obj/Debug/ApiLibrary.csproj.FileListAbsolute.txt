@@ -1,0 +1,27 @@
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\bin\Debug\ApiLibrary.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\bin\Debug\ApiLibrary.pdb
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csprojAssemblyReference.cache
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CoreCompileInputs.cache
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CopyComplete
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\bin\Debug\ApiLibrary.dll
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\bin\Debug\ApiLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CopyComplete
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.dll
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.AssemblyReference.cache
+F:\UAEP\Website\ApiLibrary\bin\Debug\ApiLibrary.dll
+F:\UAEP\Website\ApiLibrary\bin\Debug\ApiLibrary.pdb
+F:\UAEP\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.dll
+F:\UAEP\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.AssemblyReference.cache
+F:\UAEP\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CoreCompileInputs.cache
+F:\UAEP\Website\ApiLibrary\obj\Debug\ApiLibrary.csproj.CopyComplete
+F:\UAEP\Website\ApiLibrary\obj\Debug\ApiLibrary.dll
+F:\UAEP\Website\ApiLibrary\obj\Debug\ApiLibrary.pdb
+F:\UAEP\Website\ApiLibrary\bin\Debug\Newtonsoft.Json.xml

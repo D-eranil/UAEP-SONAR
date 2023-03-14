@@ -1,0 +1,45 @@
+﻿<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <ImportTransIntegration xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <importWebSiteData>
+                <Loyaltycustomer xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <customerEntryno></customerEntryno>
+                    <customerNo></customerNo>
+                    <customerContactno></customerContactno>
+                    <customerMobileno></customerMobileno>
+                    <customerLoyaltycustomer></customerLoyaltycustomer>
+                    <customerClubcode></customerClubcode>
+                    <customerSchemecode></customerSchemecode>
+                    <customerName></customerName>
+                    <customerName2></customerName2>
+                    <customerAddress></customerAddress>
+                    <customerAddress2></customerAddress2>
+                    <customerCity></customerCity>
+                    <customerCountry></customerCountry>
+                    <customerPhoneno></customerPhoneno>
+                    <customerEmail></customerEmail>
+                    <customerPostcode></customerPostcode>
+                </Loyaltycustomer>
+                <TransactionHeader xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <headerReceiptNo>$headerReceiptNo$</headerReceiptNo>
+                    <headerStoreNo>$headerStoreNo$</headerStoreNo>
+                    <headerTansactionDate>$headerTansactionDate$</headerTansactionDate>
+                    <headerTransactionTime>$headerTransactionTime$</headerTransactionTime>
+                    <headerOriginialDate>$headerOriginialDate$</headerOriginialDate>
+                    <headerNoOfItem>$headerNoOfItem$</headerNoOfItem>
+                    <headerNoofItemLines></headerNoofItemLines>
+                    <headerMembeCardNo>$headerMembeCardNo$</headerMembeCardNo>
+                    <headerCustomerNo></headerCustomerNo>
+                    <headerNetAmount>$headerNetAmount$</headerNetAmount>
+                    <headerVATAmount></headerVATAmount>
+                    <headerGrossAmount>$headerGrossAmount$</headerGrossAmount>
+                    <headerDiscountAmount>$HeaderDiscountAmount$</headerDiscountAmount>
+                    <headerTenderType>$headerTenderType$</headerTenderType>
+                    <headerPaymentAmount>$HeaderPaymentAmount$</headerPaymentAmount>
+					<headerNetPrice>$headerNetPrice$</headerNetPrice>
+                    $TicketItems$
+                </TransactionHeader>
+            </importWebSiteData>
+        </ImportTransIntegration>
+    </Body>
+</Envelope>

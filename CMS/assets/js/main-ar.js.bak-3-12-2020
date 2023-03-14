@@ -1,0 +1,2134 @@
+var scroll,
+    menuButton = $('.menu-open'),
+    $homeSlider = $('.mainBanner'),
+    $sliderAnimationSpeed = 7000,
+    circleInstances = {},
+    $status = $('.current'),
+    $slidesControls = $('.slidesCount'),
+    $happeningSlider = $(".happening-slider"),
+    $activitySlider = $(".activity-slider"),
+    $wisdomTxtSlider = $(".wisdom-txt-slider"),
+    // $wisdomImgSlider = $(".wisdom-img-slider"),
+    $wisdomImgSlider = $(".page-view"),
+    $wisdomSlider = $(".wisdom-slider"),
+    $WisdomIconSlider = $(".wisdom-icon-slider"),
+    $missionSlider = $(".mission-slider"),
+
+
+    $paymentMethodForm = $("#payment-method-form"),
+   // $feedbackForm = $("#feedback-form"),
+    $indForm = $("#ind-form"),
+
+    $factsSlider = $(".facts-slider"),
+    $guinnessSlider = $(".guinness-slider"),
+    $partnersSlider = $(".partners-slider"),
+    $PressListSlider = $(".press-list-slider"),
+    $PressThumbSlider = $(".press-thumb-slider"),
+    $MediaGallerySlider = $(".media-gallery-slider"),
+	 $numbercounter = $(".number-counter"),
+    $SchTripSlider = $(".sch-trip-slider"),
+    $partnersLogoSlider = $(".partners-logo-slider"),
+    $downloadSlider = $(".download-slider"),
+    emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+    letters =/^[a-zA-Z ]*$/,
+    //letters = /^[A-Za-z0-9 _]*[A-Za-z0-9][A-Za-z0-9 _]*$/,
+    timeRegex = /^([0 - 1] ? [0 - 9] | 2[0 - 3]): [0 - 5][0 - 9]$/,
+    phone_numberRegex = /^([\+][0-9]{1,3}([ \.\-])?)?([\(][0-9]{1,6}[\)])?([0-9 ]{1,45})(([\:]{1,11})?[0-9]{1,4}?)$/;
+
+function animateElements() {
+    if ($('.animate').length > 0) {
+        $('.animate').bind('inview', function (event, isInView) {
+            if (isInView && !$("body").hasClass("dont-animate")) {
+                var animate = $(this).attr('data-animation');
+                var speedDuration = $(this).attr('data-duration');
+                var $t = $(this);
+                setTimeout(function () {
+                    $t.addClass(animate + ' animated');
+                }, speedDuration);
+            }
+        });
+    }
+
+    $('.custom-animate').bind('inview', function (event, isInView) {
+        if (isInView) {
+            setTimeout(function () {
+                $(".special-paper-spirit").addClass("paper-start");
+            }, 1200);
+        }
+    });
+
+}
+
+function downloadSliderInit() {
+    if ($downloadSlider.length > 0){
+        if ($(window).width() < 576) {
+            $downloadSlider.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                prevArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+                nextArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+                responsive: [
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        }
+    }
+}
+
+function partnersSliderInit() {
+    if ($partnersLogoSlider.length > 0){
+        if ($(window).width() < 576) {
+            $partnersLogoSlider.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                prevArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+                nextArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+                responsive: [
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        }
+    }
+}
+
+function HomeSliderInit() {
+    if ($homeSlider.length > 0) {
+        var isdot = false;
+        if ($homeSlider.children().length > 1) {
+            isdot = true;
+        }
+       
+            $homeSlider
+                .on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+                    
+                    if (slick.slideCount > 1) {
+                        $('.total').text('0' + slick.slideCount);
+                        var i = (currentSlide ? currentSlide : 0) + 1;
+                        $status.text('0' + i);
+                        isdot = true;
+                    }
+                    if ($("#circle-border-container0").find("svg").length > 0) {
+                        $("#circle-border-container0").html("");
+                    }
+                    var bar = new ProgressBar.Line('#circle-border-container0', {
+                        strokeWidth: 1,
+                        easing: 'easeInOut',
+                        duration: $sliderAnimationSpeed,
+                        color: '#ffffff',
+                        trailColor: '#8ea26a',
+                        trailWidth: 1,
+                        svgStyle: { width: '100%', height: '100%' }
+                    });
+                    circleInstances['circle-border-container0'] = bar;
+                    bar.animate(0);
+                    circleInstances['circle-border-container0'].animate(1.0);
+                })
+                .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                    if ($("#circle-border-container" + nextSlide).find("svg").length > 0) {
+                        $("#circle-border-container" + nextSlide).html("");
+                    }
+                    var bar = new ProgressBar.Line('#circle-border-container' + nextSlide, {
+                        strokeWidth: 1,
+                        easing: 'easeInOut',
+                        duration: $sliderAnimationSpeed,
+                        color: '#ffffff',
+                        trailColor: '#8ea26a',
+                        trailWidth: 1,
+                        svgStyle: { width: '100%', height: '100%' }
+                    });
+                    circleInstances['circle-border-container' + nextSlide] = bar;
+                    bar.animate(nextSlide);
+                    circleInstances['circle-border-container' + nextSlide].animate(1.0);
+                    $homeSlider.find('.animate').off('inview');
+                    var currentElem = slick.$slides[nextSlide], $currentSlideElem = $(currentElem);
+                    var $elem = $currentSlideElem.find('.slide-text').children();
+                    $($elem).each(function (i, v) {
+                        if ($(v).hasClass('animated')) {
+                            $(v).removeClass('fadeInUp animated');
+                            $(v).removeClass('fadeInLeft animated');
+                            $(v).removeClass('fadeInRight animated');
+                            $(v).removeClass('fadeInDown animated');
+                        }
+                        $(v).addClass('animate');
+                    });
+                    $currentSlideElem.find('.animate').each(function () {
+                        $(this).bind('inview', function (event, isInView) {
+                            if (isInView) {
+                                var animate = $(this).attr('data-animation');
+                                var speedDuration = $(this).attr('data-duration');
+                                var $t = $(this);
+                                setTimeout(function () {
+                                    $t.addClass(animate + ' animated');
+                                }, speedDuration);
+                            }
+                        });
+                    });
+                    $homeSlider.find('.animate').trigger('inview', [true]);
+                })
+                .slick({
+
+                    autoplay: true,
+                    rtl: true,
+                    autoplaySpeed: $sliderAnimationSpeed,
+                    fade: true,
+                    infinite: true,
+                    dots: isdot,
+                    dotsClass: 'banner-dots',
+                    appendDots: $slidesControls,
+                    pauseOnFocus: false,
+                    swipe: false,
+                    lazyLoad: 'ondemand',
+                    customPaging: function (slider, i) {
+                        var circleElem = '<a href="javascript:"><span id="circle-border-container' + i + '" class="cirle-border"></span></a>';
+                        return circleElem;
+                    },
+                    arrows: false,
+                    pauseOnHover: false,
+                    responsive: [
+                        {
+                            breakpoint: 676,
+                            settings: {
+                                swipe: true
+                            }
+                        }
+                    ]
+                })
+        
+    }
+}
+$('.back-to-top').fadeOut();
+
+function LocoScroll() {
+    if ($("[data-scroll-container]").length && !$("body").hasClass("EditMode")) {
+        scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+        setTimeout(function () { window.scrollTo(0, 0); }, 10);
+
+        $("body").on("mouseenter", ".bootstrap-select .dropdown-menu", function () {
+            scroll.stop();
+        });
+        $("body").on("mouseleave", ".bootstrap-select .dropdown-menu", function () {
+            scroll.start();
+        });
+
+		$("body").on("mouseenter", ".iti__flag-container", function(){
+    scroll.stop();
+});
+$("body").on("mouseleave", ".iti__flag-container", function(){
+    scroll.start();
+});
+    }
+   // console.log(!$("body").hasClass("EditMode"));
+    if ($('.back-to-top').length > 0) {
+        scroll.on('scroll', function (obj) {
+
+            if ((obj.scroll.y) > $(window).height()) {
+                $('.back-to-top').fadeIn();
+
+            }
+            else {
+                $('.back-to-top').fadeOut();
+            }
+
+        });
+    }
+}
+
+
+
+/*function scrollBarInit() {
+    scroll = Scrollbar.init(
+        document.querySelector(".scroll-wrapper")
+    );
+    scroll.addListener(function (status) {
+    });
+}*/
+
+
+function iePopup() {
+    setTimeout(function () {
+        if ($("html").hasClass("ie")) {
+            $('#iePopup').modal('show');
+        }
+    }, 2000);
+}
+function getEventsListing() {
+    $.ajax({
+        type: 'GET',
+        url: '/GetAllEvents.aspx',
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            if (data != null && data.ListData.length > 0) {
+                //var response = $.parseJSON(data);
+                var arrEvents = [];
+                $.each(data, function (i, e) {
+                    var objEvent = {};
+                    objEvent.title = e.Title;
+                    objEvent.allday = true;
+                    objEvent.start = e.StartDate;
+                    objEvent.end = e.EndDate;
+                    objEvent.imageurl = e.Image;
+                    objEvent.url = e.Url;
+                    objEvent.description = "<p>" + e.Description +"</p>";
+                    objEvent.backgroundColor = e.Color;
+                    arrEvents.push(objEvent);
+                });
+                 //$('#calendar').fullCalendar('getCalendar');
+                cal = $('.bootstrapModalFullCalendar').fullCalendar('getCalendar');
+                cal.removeEvents();
+                cal.addEventSource(arrEvents);
+            }
+            else {
+                isInProgress = true;
+            }
+        }
+    });
+}
+
+function faqDropdownSlider() {
+    $('.dropdown-slider h5').click(function () {
+
+        $('.dropdown-slider h5').not(this).parent().find('p').slideUp();
+        $('.dropdown-slider h5').not(this).parent().find('.icon-vert').css('transform', 'rotate(0deg)');
+        $('.dropdown-slider h5').not(this).parent().removeClass('toggle-active');
+        $(this).parent().find('p').slideToggle();
+
+        if (!$(this).parent().hasClass('toggle-active')) {
+            $(this).parent().find('.icon-vert').css('transform', 'rotate(90deg)');
+            $(this).parent().addClass('toggle-active');
+        } else {
+            $(this).parent().find('.icon-vert').css('transform', 'rotate(0deg)');
+            $(this).parent().removeClass('toggle-active');
+        }
+    })
+}
+
+function checkboxesValuesOnRefresh() {
+    $("#duraton").val($('.visit-park:checked').val());
+    $("#newsleter").val($('.receive-update:checked').val());
+    $("#overallexp").val($('.overall:checked').val());
+    $("#clean").val($('.cleanliness:checked').val());
+    $("#valuemoney").val($('.money-check:checked').val());
+    $("#staffprofessional").val($('.staff-check:checked').val());
+    $("#diningexp").val($('.dining-check:checked').val());
+    $("#parkfacility").val($('.park-check:checked').val());
+    $("#operatinghour").val($('.operating-check:checked').val());
+    $("#eventsandactivity").val($('.events-check:checked').val());
+    $("#recomendation").val($('.recommend-check:checked').val());
+}
+
+
+function SizeInKb() {
+    $(".attachmentSize").each(function () {
+        var size = $(this).text();
+        var sizeInKb = size / 1024;
+        var roundSize = Math.round(sizeInKb);
+        $(this).text(roundSize + "KB");
+    });
+}
+const target = document.querySelector('header');
+
+$("#duraton").val($('.visit-park:checked').val());
+
+$(document).ready(function () {
+
+    SizeInKb();
+    
+    faqDropdownSlider();
+
+    menuButton.click(function () {
+        $('html').toggleClass('open-html');
+        $('.menu-open').toggleClass('click');
+        $('.primary-menu').toggleClass('open-menu');
+        if ($(this).hasClass("click")) {
+            scroll.stop();
+        }
+        else {
+            scroll.start();
+        }
+    });
+
+    //FOR PLACEHOLDER OF FORMS ID AND NAME NOT CHANGE
+    $("#inp").prop("name", "email");
+    $("#np").prop("name", "name");
+    $("#nation").prop("name", "nationality");
+    $("#fnp").prop("name", "Fname");
+    $("#lnp").prop("name", "Lname");
+    $("#cit").prop("name", "city");
+    $("#em").prop("name", "email");
+	$("#cmnts").prop("name", "comments");
+    $("#mssg").prop("name", "message");
+    $("#cnam").prop("name", "Cname");
+    $("#eventDatepicker").prop("name", "date");
+    $("#txtcaptcha").prop("name", "captcha");
+	
+	
+	$(".back-to-top").on("click", function(){
+    scroll.scrollTo(target);
+});
+
+    $(".cultureClick").on("click", function (e) {
+        e.preventDefault();
+        var cult = $(location).attr("href");       
+        var cultUrl = cult.replace(cult.split('/')[3], 'en');
+        window.location.replace(cultUrl);
+
+    });
+
+    $(".sub-menu-icon").on("click", function () {
+        $(this).parent().find(".submenu").slideToggle();
+    });
+
+    if ($wisdomTxtSlider.length > 0) {
+        $wisdomTxtSlider
+            .on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+                const currentCount = nextSlide + 1,
+                    NumberCount = String("00" + currentCount).slice(-2);
+                $(".wisdom-slide-Count span").text(NumberCount);
+            })
+            .on("init", function (event, slick) {
+                const currentCount = slick.currentSlide + 1,
+                    NumberCount = String("00" + currentCount).slice(-2);
+                $(".wisdom-slide-Count span").text(NumberCount);
+                //$(".wisdom-slide-Count span").text(slick.currentSlide + 1);
+            })
+            .slick({
+                rtl: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+				infinite: false,
+                asNavFor: ".wisdom-sliders-part",
+                prevArrow: $(".wisdom-arrow-left"),
+                nextArrow: $(".wisdom-arrow-right")
+            });
+        $wisdomImgSlider.slick({
+            rtl: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: ".wisdom-sliders-part",
+            dots: false,
+            arrows: false,
+            fade: true,
+			infinite: false,
+            speed: $("html").hasClass("ie") ? 1000 : 0
+        })
+            .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                if(!$("html").hasClass("ie")){
+                    var prevImg = $(slick.$slides[currentSlide]).find(".main-img").attr("src");
+                    $(slick.$slides[nextSlide]).find(".cover-img>img").attr("src", prevImg);
+                }
+            })
+            .on('afterChange', function (event, slick, currentSlide, nextSlide) {
+                // $(".page-view .project").removeClass("hide");
+            });
+        $WisdomIconSlider.slick({
+            rtl: true,
+            slidesToShow: 8,
+            centerMode:true,
+            asNavFor: ".wisdom-sliders-part",
+            dots: false,
+            arrows: false,
+            infinite: false,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 676,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        });
+    }
+
+
+    if($happeningSlider.length > 0){
+        $happeningSlider.slick({
+            rtl: true,
+            centerMode: true,
+            arrows: true,
+            infinite: true,
+            slidesToShow: 1,
+            centerPadding: '160px',
+            prevArrow: '<a href="javascript:" class="happening-arrow happening-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="happening-arrow happening-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: false,
+                        centerPadding: '0',
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: false,
+                        centerPadding: '0',
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: false,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: false,
+                    }
+                }
+            ]
+        });
+    }
+
+
+    if($activitySlider.length > 0){
+        $activitySlider.slick({
+            rtl:true,
+            slidesToShow: 1,
+            prevArrow: '<a href="javascript:" class="activity-arrow activity-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="activity-arrow activity-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    if($missionSlider.length > 0){
+        $missionSlider.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            prevArrow: '<a href="javascript:" class="activity-arrow activity-arrow-left slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="activity-arrow activity-arrow-right slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    if($factsSlider.length > 0){
+        $factsSlider.slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            prevArrow: '<a href="javascript:" class="activity-arrow facts-arrow-left slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="activity-arrow facts-arrow-right slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    if($guinnessSlider.length > 0){
+        if($(window).width() > 767){
+            var rowCount = 2;
+        } else{
+            var rowCount = 1;
+        }
+        $guinnessSlider.slick({
+            rows: rowCount,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: false,
+            variableWidth: true,
+            rtl: true,
+            prevArrow: '<a href="javascript:" class="activity-arrow facts-arrow-left slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="activity-arrow facts-arrow-right slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        variableWidth: false
+                    }
+                }
+            ]
+        });
+    }
+
+    if($("a[data-toggle=\"tab\"]").length > 0){
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            $guinnessSlider.slick('setPosition');
+            $factsSlider.slick('setPosition');
+            scroll.update();
+        })
+    }
+
+
+
+
+    if($partnersSlider.length > 0){
+        $partnersSlider.slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            dots: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+
+    $("#NewsLetterform").wrap("<form  id='newsletter'></form>");
+    if ($("#newsletter").length > 0) {
+        $("#newsletter").formValidation({
+                fields: {
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }, regexp: {
+                                regexp: emailRegex,
+                                message: ' '
+                            }
+                        }
+                    }
+                },
+                onSuccess: function (e) {
+                    e.preventDefault();
+                    var $form = $(e.target),
+                        formId = '#' + $form[0].id;
+                    $(formId).addClass('loading').append('<div class="loader"></div>');
+                    $.ajax({
+                        type: 'post',
+                        url: '/postaspxfiles/newsletter/post.aspx ',
+                        data: $(formId).serialize(),
+                        success: function (data) {
+                            if (data == "success") {
+                                setTimeout(function () {
+                                    var fields = $(formId).data('formValidation').getOptions().fields,
+                                        $parent, $icon;
+                                    for (var field in fields) {
+                                        $parent = $('[name="' + field + '"]').parents('.form-group');
+                                    }
+                                    // Then reset the form
+                                    $('.alert-success').addClass('in');
+                                    $(formId).data('formValidation').resetForm(true);
+                                    $("input[type=text], textarea").val("");
+                                    $('.file-input-name').hide();
+                                    $('#NewsLetterform .thanks').show();
+                                    scroll.scrollTo('#NewsLetterform .thanks-inner');
+                                    $(formId).removeClass('loading');
+                                    $(formId).find('.loader').remove();
+                                    setTimeout(function () {
+                                        $('#NewsLetterform .thanks').hide();
+                                        $(formId).data('formValidation').resetForm(true);
+                                    }, 5000);
+                                }, 1500);
+                            }
+                            else if (data == "alreadyExist") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $(".alreadyExist").show();
+                                setTimeout(function () {
+                                    $("input[type=text]").val("");
+                                    $(".alreadyExist").hide();
+                                    refresh();
+                                }, 4000);
+                            }
+                        }
+
+                    });
+                }
+            });
+    }
+
+$('.captcha-img').click(function () {
+        refresh();
+    });
+    refresh();
+   function refresh() {
+        $("#imgCaptcha").attr("src", "/FormCaptcha.aspx?" + new Date().getMilliseconds());
+    }
+
+
+        $("#contactform").wrap("<form  id='cnt-form'></form>");
+    if ($("#cnt-form").length > 0) {
+
+        $("#cnt-form").formValidation({
+            fields: {
+                Fname: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+						regexp: {
+                            regexp: letters,
+                            message: ' '
+                        }
+                    }
+                },
+                Lname: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+						regexp: {
+                            regexp: letters,
+                            message: ' '
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }, regexp: {
+                            regexp: emailRegex,
+                            message: ' '
+                        }
+                    }
+                },
+                number: {
+                    validators: {
+                        regexp: { regexp: phone_numberRegex, message: ' ' }
+                    }
+                },
+
+                city: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        },
+						regexp: {
+                            regexp: letters,
+                            message: ' '
+                        }
+                    }
+                },
+                question: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                message: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                },
+                captcha: {
+                    validators: {
+                        notEmpty: {
+                            message: ' '
+                        }
+                    }
+                }
+            },
+
+            onSuccess: function (e) {
+                
+                e.preventDefault();
+                var $form = $(e.target),
+                    formId = '#' + $form[0].id;
+                var data = $(formId).serialize() + "&telCode=" + $(".iti__selected-dial-code").text();
+                $(formId).addClass('loading').append('<div class="loader"></div>');
+                $.ajax({
+                    type: 'post',
+                    url: '/postaspxfiles/post.aspx ',
+                    data: data,
+                    success: function (data) {
+                        if (data == "success") {
+                            setTimeout(function () {
+                                var fields = $(formId).data('formValidation').getOptions().fields,
+                                    $parent, $icon;
+                                for (var field in fields) {
+                                    $parent = $('[name="' + field + '"]').parents('.form-group');
+                                }
+                                // Then reset the form
+                                $('.alert-success').addClass('in');
+                                $(formId).data('formValidation').resetForm(true);
+                                $("input[type=text], textarea").val("");
+                                $('select[id=query]').val("");
+                                $('.selectpicker').selectpicker('refresh');
+                                $('.file-input-name').hide();
+                                $('#contactform .thanks').show();
+                                scroll.scrollTo('#contactform .thanks-inner');
+                                $(formId).removeClass('loading');
+                                $(formId).find('.loader').remove();
+                                setTimeout(function () {
+                                    $('#contactform .thanks').hide();
+                                    $(formId).data('formValidation').resetForm(true);
+									scroll.scrollTo('.contact-form-sec');
+                                    refresh();
+                                }, 5000);
+                            }, 1500);
+                        } else if (data == "invalid") {
+                            $(formId).find('.loader').remove();
+                            $(formId).removeClass('loading');
+                            $("input[type=tel]").removeClass('error');
+                            $('#captchadiv').removeClass('has-success');
+                            $('#captchadiv').addClass('has-error');
+                            $(".errorCaptcha").show();
+                            setTimeout(function () {
+                                $(".errorCaptcha").hide();
+                                $(".error").hide();
+                                refresh();
+                            }, 4000);
+                        } else if (data == "fail") {
+                            $(formId).find('.loader').remove();
+                            $(formId).removeClass('loading');
+                            $(".error").text();
+                            $(".error").show();
+                            setTimeout(function () {
+                                $(".errorCaptcha").hide();
+                                $(".error").hide();
+                                refresh();
+                            }, 4000);
+                        }
+                    },
+                    error: function (e) {
+                        $(formId).find('.loader').remove();
+                        $(formId).data('formValidation').resetForm(true);
+                        refresh();
+                    }
+                });
+            }
+        });
+    }
+
+
+$("#bavform").wrap("<form  id='bav-form'></form>");
+    if ($("#bav-form").length > 0) {
+        $("#bav-form").formValidation({
+                fields: {
+                    Fname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+                    Lname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+                    Cname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+                    date: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    time: {
+                      
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }, regexp: {
+                                regexp: emailRegex,
+                                message: ' '
+                            }
+                        }
+                    },
+                    number: {
+                        validators: {
+                            regexp: { regexp: phone_numberRegex, message: ' ' }
+                        }
+                    },
+                    type: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+                    question: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    message: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    captcha: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    }
+                },
+            onSuccess: function (e) {
+                
+                    e.preventDefault();
+                    var $form = $(e.target),
+                    formId = '#' + $form[0].id;
+                var data = $(formId).serialize() + "&telCode=" + $(".iti__selected-dial-code").text();
+                    $(formId).addClass('loading').append('<div class="loader"></div>');
+                    $.ajax({
+                        type: 'post',
+                        url: '/postaspxfiles/BookAVenue/post.aspx ',
+                        data: data,
+                        success: function (data) {
+                            
+                            if (data == "success") {
+                                setTimeout(function () {
+                                    var fields = $(formId).data('formValidation').getOptions().fields,
+                                        $parent, $icon;
+                                    for (var field in fields) {
+                                        $parent = $('[name="' + field + '"]').parents('.form-group');
+                                    }
+                                    // Then reset the form
+                                    $('.alert-success').addClass('in');
+                                    $(formId).data('formValidation').resetForm(true);
+                                    $("input[type=text], textarea").val("");
+                                    $('select[id=query]').val(" ");
+                                    $('select[id=time]').val(" ");
+                                    $('select[id=eventType]').val(" ");
+                                    $('.selectpicker').selectpicker('refresh');
+                                    $('.file-input-name').hide();
+                                    $('#bavform .thanks').show();
+                                    scroll.scrollTo('#bavform .thanks-inner');
+                                    $(formId).removeClass('loading');
+                                    $(formId).find('.loader').remove();
+                                    if ($(window).width() < 768) { $('html, body').animate({ scrollTop: $('.contact-form').offset().top }); }
+                                    setTimeout(function () {
+                                        $('#bavform .thanks').hide();
+                                        $(formId).data('formValidation').resetForm(true);
+										scroll.scrollTo('.contact-form-sec');
+                                    }, 5000);
+                                }, 1500);
+                            } else if (data == "invalid") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $("input[type=tel]").removeClass('error');                                
+                                $('#captchadiv').removeClass('has-success');
+                                $('#captchadiv').addClass('has-error');
+                                $(".errorCaptcha").show();
+                                setTimeout(function () {
+                                    $(".errorCaptcha").hide();
+                                    $(".error").hide();
+                                    refresh();
+                                }, 4000);
+                            } else if (data == "fail") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $(".error").text();
+                                $(".error").show();
+                                setTimeout(function () {
+                                    $(".errorCaptcha").hide();
+                                    $(".error").hide();
+                                    refresh();
+                                }, 4000);
+                            } else if (data == "TimeError") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $('#TimeDiv').addClass('has-error');
+                                $('#captchadiv').addClass('has-error');
+                                $(".TimeError").text();
+                                $(".TimeError").show();
+                                setTimeout(function () {
+                                    $(".TimeDiv").hide();
+                                    $(".errorCaptcha").hide();
+                                    $(".TimeError").hide();
+                                    $(".error").hide();
+                                    refresh();
+                                }, 4000);
+                            }
+                        },
+                        error: function (e) {
+                            $(formId).find('.loader').remove();
+                            $(formId).data('formValidation').resetForm(true);
+                            refresh();
+                        }
+                        
+                    });
+                }
+            });
+    }
+
+    if ($indForm.length > 0) {
+        $indForm
+            .formValidation({
+                fields: {
+                    Fname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    Lname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    Cname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    date: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    time: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }, regexp: {
+                                regexp: emailRegex,
+                                message: ' '
+                            }
+                        }
+                    },
+                    number: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    city: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    question: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    message: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    captcha: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    }
+                },
+                onSuccess: function (e) {
+                    e.preventDefault();
+                    var $form = $(e.target),
+                        formId = '#' + $form[0].id;
+                    $(formId).addClass('loading').append('<div class="loader"></div>');
+                    $.ajax({
+                        type: 'post',
+                        url: ' ',
+                        data: $(formId).serialize(),
+                        success: function () {
+                            setTimeout(function () {
+                                var fields = $(formId).data('formValidation').getOptions().fields,
+                                    $parent, $icon;
+                                for (var field in fields) {
+                                    $parent = $('[name="' + field + '"]').parents('.form-group');
+                                }
+                                // Then reset the form
+                                $('.alert-success').addClass('in');
+                                $(formId).data('formValidation').resetForm(true);
+                                $("input[type=text], textarea").val("");
+                                $('.file-input-name').hide();
+                                $('.thanks').show();
+                                $(formId).removeClass('loading');
+                                $(formId).find('.loader').remove();
+                                setTimeout(function () {
+                                    $('.thanks').hide();
+                                    $(formId).data('formValidation').resetForm(true);
+                                }, 5000);
+                            }, 1500);
+                        }
+                    });
+                }
+            });
+    }
+
+    if ($paymentMethodForm.length > 0) {
+
+        function adjustIframeHeight() {
+            var $body = $('body'),
+                $iframe = $body.data('iframe.fv');
+            if ($iframe) {
+                $iframe.height($body.height());
+            }
+        }
+
+        $paymentMethodForm
+            .steps({
+                headerTag: ".tickets-tab-steps",
+                bodyTag: ".select-ticket-content",
+                enablePagination: false,
+                enableFinishButton: false,
+                onStepChanged: function (e, currentIndex, priorIndex) {
+                    adjustIframeHeight();
+                },
+                onStepChanging: function (e, currentIndex, newIndex) {
+                    var fv = $paymentMethodForm.data('formValidation'),
+                        $container = $paymentMethodForm.find('.select-ticket-content[data-step="' + currentIndex + '"]');
+                    fv.validateContainer($container);
+                    var isValidStep = fv.isValidContainer($container);
+                    if (isValidStep === false || isValidStep === null) {
+                        return false;
+                    }
+                    return true;
+                },
+                onFinishing: function (e, currentIndex) {
+                    var fv = $paymentMethodForm.data('formValidation'),
+                        $container = $paymentMethodForm.find('.select-ticket-content[data-step="' + currentIndex + '"]');
+                    fv.validateContainer($container);
+                    var isValidStep = fv.isValidContainer($container);
+                    if (isValidStep === false || isValidStep === null) {
+                        return false;
+                    }
+                    return true;
+                },
+                onFinished: function (event, currentIndex)
+                {
+                    console.log("Submitted!");
+                }
+            });
+
+        $paymentMethodForm
+            .formValidation({
+                framework: 'bootstrap',
+                // This option will not ignore invisible fields which belong to inactive panels
+                excluded: ':disabled',
+                fields: {
+                    Fullname: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }, regexp: {
+                                regexp: emailRegex,
+                                message: ' '
+                            }
+                        }
+                    },
+                    number: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    captcha: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    }
+                },
+                onSuccess: function (e) {
+                    e.preventDefault();
+                    var $form = $(e.target),
+                        formId = '#' + $form[0].id;
+                    $(formId).addClass('loading').append('<div class="loader"></div>');
+                    $.ajax({
+                        type: 'post',
+                        url: ' ',
+                        data: $(formId).serialize(),
+                        success: function () {
+                            setTimeout(function () {
+                                var fields = $(formId).data('formValidation').getOptions().fields,
+                                    $parent, $icon;
+                                for (var field in fields) {
+                                    $parent = $('[name="' + field + '"]').parents('.form-group');
+                                }
+                                // Then reset the form
+                                $('.alert-success').addClass('in');
+                                $(formId).data('formValidation').resetForm(true);
+                                $("input[type=text], textarea").val("");
+                                $('.file-input-name').hide();
+                                $('.contact-form').hide();
+                                $('.thanks').show();
+                                $(formId).removeClass('loading');
+                                $(formId).find('.loader').remove();
+                                setTimeout(function () {
+                                    $('.contact-form').show();
+                                    $('.thanks').hide();
+                                    $(formId).data('formValidation').resetForm(true);
+                                }, 5000);
+                            }, 1500);
+                        }
+                    });
+                }
+            });
+
+        $(".ticketsprev-step").on("click", function (e){
+            e.preventDefault();
+            $paymentMethodForm.steps("previous");
+        });
+        $(".ticketsnext-step").on("click", function (e){
+            e.preventDefault();
+            $paymentMethodForm.steps("next");
+        });
+
+    }
+
+     if(($numbercounter.length) > 0 ){
+
+     $('.minus').click(function () {
+     var $input = $(this).parent().find('input');
+     var count = parseint($input.val()) - 1;
+     count = count < 0 ? 0 : count;
+     $input.val(count);
+     $input.change();
+     return false;
+     });
+     $('.plus').click(function () {
+     var $input = $(this).parent().find('input');
+     $input.val(parseint($input.val()) + 1);
+     $input.change();
+     return false;
+     });
+
+    }
+    $("#visitorfeedback").wrap("<form  id='feedback-form'></form>");
+    if ($("#feedback-form").length > 0) {
+        $("#feedback-form").formValidation({
+                fields: {
+                    name: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }, regexp: {
+                                regexp: emailRegex,
+                                message: ' '
+                            }
+                        }
+                    },
+                    age: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    },
+                    nationality: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            },
+                            regexp: {
+                                regexp: letters,
+                                message: ' '
+                            }
+                        }
+                    },
+                    number: {
+                        validators: {
+                            regexp: { regexp: phone_numberRegex, message: ' ' }
+                        }
+                    },
+                    captcha: {
+                        validators: {
+                            notEmpty: {
+                                message: ' '
+                            }
+                        }
+                    }
+                },
+                onSuccess: function (e) {
+                    e.preventDefault();
+                    var $form = $(e.target),
+                        formId = '#' + $form[0].id;
+                    var data = $(formId).serialize() + "&telCode=" + $(".iti__selected-dial-code").text();
+                    $(formId).addClass('loading').append('<div class="loader"></div>');
+                    $.ajax({
+                        type: 'post',
+                        url: '/postaspxfiles/VisitorsFeedback/post.aspx ',
+                        data: data,
+                        success: function (data) {
+                            if (data == "success") {
+                                setTimeout(function () {
+                                    var fields = $(formId).data('formValidation').getOptions().fields,
+                                        $parent, $icon;
+                                    for (var field in fields) {
+                                        $parent = $('[name="' + field + '"]').parents('.form-group');
+                                    }
+                                    // Then reset the form
+                                    $('.alert-success').addClass('in');
+                                    $(formId).data('formValidation').resetForm(true);
+                                    $("input[type=text], textarea").val("");
+                                    $('select[id=agee]').val(" ");
+                                    $('.selectpicker').selectpicker('refresh');
+                                    //$("input[type=checkbox]").removeAttr('checked');
+                                    $('.file-input-name').hide();
+                                    $('#visitorfeedback .thanks').show();
+                                    scroll.scrollTo('#visitorfeedback .thanks-inner');
+                                    $(formId).removeClass('loading');
+                                    $(formId).find('.loader').remove();
+                                    setTimeout(function () {
+                                        $('#visitorfeedback .thanks').hide();
+                                        $(formId).data('formValidation').resetForm(true);
+										refresh();										
+										checkboxesValuesOnRefresh();
+										scroll.scrollTo('.contact-form-sec');
+                                    }, 5000);
+                                }, 1500);
+                            } else if (data == "invalid") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $("input[type=tel]").removeClass('error');
+                                $('#captchadiv').removeClass('has-success');
+                                $('#captchadiv').addClass('has-error');
+                                $(".errorCaptcha").show();
+                                setTimeout(function () {
+                                    $(".errorCaptcha").hide();
+                                    $(".error").hide();
+                                    refresh();
+                                    checkboxesValuesOnRefresh();
+                                }, 4000);
+                            } else if (data == "fail") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');
+                                $(".error").text();
+                                $(".error").show();
+                                setTimeout(function () {
+                                    $(".errorCaptcha").hide();
+                                    $(".error").hide();
+                                    refresh();
+                                    checkboxesValuesOnRefresh();
+                                }, 4000);
+                            } else if (data == "TimeError") {
+                                $(formId).find('.loader').remove();
+                                $(formId).removeClass('loading');                               
+                                $('#captchadiv').addClass('has-error');                                
+                                setTimeout(function () {                                   
+                                    $(".errorCaptcha").hide();                                    
+                                    $(".error").hide();
+                                    refresh();
+                                    checkboxesValuesOnRefresh();
+                                }, 4000);
+                            }
+                        },
+                        error: function (e) {
+                            $(formId).find('.loader').remove();
+                            $(formId).data('formValidation').resetForm(true);
+                            refresh();
+                            checkboxesValuesOnRefresh();
+                        }
+                    });
+                }
+            });
+    }
+    if ($('#phone').length > 0) {
+        var input = document.querySelector("#phone");
+
+        var iti = window.intlTelInput(input, {
+            nationalMode: false,
+            separateDialCode: true,
+            formatOnDisplay: true,
+            rtl: true,
+            initialCountry: "ae",
+            utilsScript: "/assets/scripts/utils.js",
+            autoPlaceholder: "aggressive",
+            container: true
+        });
+
+        var reset = function() {
+            input.classList.remove("error");
+            //errorMsg.innerHTML = " ";
+            //errorMsg.classList.add("hide");
+        };
+
+// on blur: validate
+        input.addEventListener('blur', function() {
+            reset();
+            if (input.value.trim()) {
+                if (!iti.isValidNumber()) {
+                    input.classList.add("error");
+                    var errorCode = iti.getValidationError();
+                    //errorMsg.innerHTML = errorMap[errorCode];
+                    //errorMsg.classList.remove("hide");
+                }
+            }
+        });
+
+		input.addEventListener("open:countrydropdown", function() {
+		$('.phone-field').addClass('highindex');
+		});
+		input.addEventListener("close:countrydropdown", function() {
+		$('.phone-field').removeClass('highindex');
+		});
+
+        // on keyup / change flag: reset
+        input.addEventListener('change', reset);
+        input.addEventListener('keyup', reset);
+
+    }
+
+    if($PressListSlider.length > 0){
+        $PressListSlider.slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            prevArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    if($PressThumbSlider.length > 0){
+        $PressThumbSlider.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            prevArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    }
+
+    if($MediaGallerySlider.length > 0){
+        $MediaGallerySlider.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            rtl: true,
+            centerMode: true,
+            prevArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
+        });
+    }
+
+
+    if($SchTripSlider.length > 0){
+        $SchTripSlider.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: false,
+            rtl: true,
+            centerMode: false,
+            prevArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+            nextArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
+        });
+    }
+
+
+    if ($('#eventDatepicker').length > 0) {
+        /*$(function () {
+            $("#eventDatepicker").datepicker({});
+        });*/
+        var dateToday = new Date();
+        $('#eventDatepicker').datepicker({
+            minDate: dateToday,
+            beforeShow: function (input, inst) {
+                scroll.stop();
+                $('#ui-datepicker-div').removeClass(function () {
+                    return $('input').get(0).id;
+                });
+                $('#ui-datepicker-div').addClass(this.id);
+            },
+            onSelect: function(dateText, inst) {
+                scroll.start();
+            },
+            onClose: function (dateText, inst) {
+                $("#bav-form").data('formValidation').revalidateField('date');
+            }
+        });
+    }
+
+
+    if ($(window).width() <= 767){
+        if ($('.tkt-nav-slider').length > 0) {
+            $('.tkt-nav-slider').slick({
+                dots: false,
+                autoplay: false,
+                infinite: false,
+                rtl: true,
+                speed: 1000,
+                accessibility: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                prevArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+                nextArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+            }).on('afterChange', function (event, slick, currentSlide, nextSlide) {
+                console.log(currentSlide, slick);
+                $('.tkt-nav-slider [data-slick-index="'+currentSlide+'"] .nav-link').click()
+            });
+        }
+    }
+
+    if ($(window).width() <= 767){
+        if ($('.book-nav-slider').length > 0) {
+            $('.book-nav-slider').slick({
+                dots: false,
+                autoplay: false,
+                infinite: false,
+                speed: 1000,
+                accessibility: false,
+                rtl: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                rtl:true,
+                prevArrow: '<a href="javascript:" class="slick-arrow-right"></a>',
+                nextArrow: '<a href="javascript:" class="slick-arrow-left"></a>',
+            }).on('afterChange', function (event, slick, currentSlide, nextSlide) {
+                console.log(currentSlide, slick);
+                $('.book-nav-slider [data-slick-index="'+currentSlide+'"] .nav-link').click()
+            });
+        }
+    }
+
+    $(".tkt-nav-slider .nav-link").click(function () {
+
+        $('.nav-link').removeClass("active");
+        $('.nav-link').removeClass("show");
+        //scroll.update();
+        setTimeout(function () {
+            scroll.update();
+        }, 1000);
+    });
+
+    $(".book-nav-slider .nav-link").click(function () {
+
+        $('.nav-link').removeClass("active");
+        $('.nav-link').removeClass("show");
+
+    });
+
+    if($("[data-fancybox]").length){
+
+        $("[data-fancybox]").fancybox({
+            thumbs          : false,
+            hash            : false,
+            clickContent    : false,
+            infobar         : false,
+            buttons: [
+                "close"
+            ]
+        });
+        $.fancybox.defaults.backFocus = false;
+
+    }
+
+
+  $('#search').on('shown.bs.modal', function () {
+        $('#textareaID').focus();
+    });
+
+    function openURL() {
+        var name = document.getElementById('textareaID').value;
+        var url = 'http://uaep.dev.local/ar/search.aspx?searchtext=' + name + '&searchmode=exactphrase';
+
+        // In current window
+       //window.location = url;
+        // window.open(url);
+        window.location.replace(url);
+    }
+
+    $('#icon-search').on("click", function (e) {
+        e.preventDefault();
+        openURL();
+    });
+
+    $(".dark_scroll").mCustomScrollbar({
+        theme:"dark"
+    });
+
+
+   
+
+
+    if ($('#eventDatepicker').length > 0) {
+        $("#eventDatepicker").mCustomScrollbar({
+            theme:"dark"
+        });
+    }
+    
+    if ($(window).width() <= 767){
+        if ($('.bootstrapModalFullCalendar').length > 0) {
+            $('.bootstrapModalFullCalendar').fullCalendar({
+                header: {
+                    left: '',
+                    center: 'prev title next',
+                    right: ''
+                },
+				eventLimit: 2,
+                eventClick: function (event, jsEvent, view) {
+                    $('#modalTitle').html(event.title);
+                    $('#modalBody').html(event.description);
+                    $('#eventUrl').attr('href', event.url);
+                    if (event.url == 'javascript:' || !event.url) {
+                        $('#eventUrl').attr('target', "");
+                    } else {
+                        $('#eventUrl').attr('target', " ");
+                    } 
+                    $('.fullCalModal').modal();
+					scroll.stop();
+                    return false;
+
+                },
+                events: 'http://uaep.dev.local/GetAllEvents.aspx',
+
+                eventRender: function (event, eventElement) {
+                    if (event.imageurl) {
+                        eventElement.find("div.fc-content").prepend("<img src='" + event.imageurl + "' width='' height=''>");
+                    }
+                },
+
+
+            });
+        }
+    }
+   
+    if ($('.bootstrapModalFullCalendar').length > 0) {
+        //getEventsListing();
+        $('.bootstrapModalFullCalendar').fullCalendar({
+            header: {
+                left: '',
+                center: 'prev title next',
+                right: ''
+            },
+            eventClick: function (event, jsEvent, view) {
+                $('#modalTitle').html(event.title);
+                $('#modalBody').html(event.description);
+                $('#eventUrl').attr('href', event.url);
+                if (event.url == 'javascript:' || !event.url) {
+                    $('#eventUrl').attr('target', "");
+                } else {
+                    $('#eventUrl').attr('target', " ");
+                } 
+                $('.fullCalModal').modal();
+				scroll.stop();
+                return false;
+
+            },
+            events: 'http://uaep.dev.local/GetAllEvents.aspx'
+               ,
+            columnFormat: {
+
+                month: 'dddd',
+            },
+            eventRender: function (event, eventElement) {
+                if (event.imageurl) {
+                    eventElement.find("div.fc-content").prepend("<img src='" + event.imageurl + "' width='' height=''>");
+                }
+            },
+        });
+
+    }
+	
+	$(document).on('click', '.fullCalModal .close, .modal-open', function () {
+        scroll.start();
+    });
+
+
+
+    //    how offten do you visit park Question
+
+    $(".visit-park").change(function()
+    {
+        $(".visit-park").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#duraton").val("");
+        $("#duraton").val($('.visit-park:checked').val());
+       
+    });
+
+    //    would you receive-update Question
+    $("#newsleter").val($('.receive-update:checked').val());
+
+    $(".receive-update").change(function()
+    {
+        $(".receive-update").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#newsleter").val("");
+        $("#newsleter").val($('.receive-update:checked').val());
+    });
+
+    //    overall exp Question
+    $("#overallexp").val($('.overall:checked').val());
+    $(".overall").change(function()
+    {
+        $(".overall").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#overallexp").val("");
+        $("#overallexp").val($('.overall:checked').val());
+    });
+
+    //    cleanlines Question
+    $("#clean").val($('.cleanliness:checked').val());
+    $(".cleanliness").change(function()
+    {
+        $(".cleanliness").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#clean").val("");
+        $("#clean").val($('.cleanliness:checked').val());
+    });
+
+    //    value of moneye Question
+    $("#valuemoney").val($('.money-check:checked').val());
+    $(".money-check").change(function()
+    {
+        $(".money-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#valuemoney").val("");
+        $("#valuemoney").val($('.money-check:checked').val());
+    });
+
+    //    staff Question
+    $("#staffprofessional").val($('.staff-check:checked').val());
+    $(".staff-check").change(function()
+    {
+        $(".staff-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#staffprofessional").val("");
+        $("#staffprofessional").val($('.staff-check:checked').val());
+    });
+
+    //   dining exp Question
+    $("#diningexp").val($('.dining-check:checked').val());
+    $(".dining-check").change(function()
+    {
+        $(".dining-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#diningexp").val("");
+        $("#diningexp").val($('.dining-check:checked').val());
+    });
+
+    //    park Question
+    $("#parkfacility").val($('.park-check:checked').val());
+    $(".park-check").change(function()
+    {
+        $(".park-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#parkfacility").val("");
+        $("#parkfacility").val($('.park-check:checked').val());
+    });
+
+    //   operating Question
+    $("#operatinghour").val($('.operating-check:checked').val());
+    $(".operating-check").change(function()
+    {
+        $(".operating-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#operatinghour").val("");
+        $("#operatinghour").val($('.operating-check:checked').val());
+    });
+
+    //    event Question
+    $("#eventsandactivity").val($('.events-check:checked').val());
+    $(".events-check").change(function()
+    {
+        $(".events-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#eventsandactivity").val("");
+        $("#eventsandactivity").val($('.events-check:checked').val());
+    });
+
+    //    recommend-check Question
+
+    $("#recomendation").val($('.recommend-check:checked').val());
+
+    $(".recommend-check").change(function()
+    {
+        $(".recommend-check").prop('checked',false);
+        $(this).prop('checked', true);
+        $("#recomendation").val("");
+        $("#recomendation").val($('.recommend-check:checked').val());
+    });
+
+});
+
+
+$(window).on('load', function () {
+ partnersSliderInit();
+ downloadSliderInit();
+ setTimeout(function(){ window.scrollTo(0,0); }, 10);
+
+    var tl = gsap.timeline({paused: true});
+    setTimeout(function () {
+        HomeSliderInit();
+    }, 500)
+    tl.fromTo(".loader-box", {opacity: 1}, {opacity: 0, ease: "expo.out", duration: 1.5})
+    tl.fromTo(".loading-inner-bg", {height: '100%'}, {height: '0%', duration: 1});
+    tl.play().then(function () {$("#loader-wrapper").hide();}).then(animateElements).then(function () {
+        $('body').addClass('beforeLoaded');
+        /*setTimeout(function () {
+            $('.slidesControls').addClass('fadeInUp animated');
+        }, 200)*/
+        $('#content').removeAttr("style");
+    }).then(iePopup);
+
+
+    //animateElements();
+    //scrollBarInit();
+
+    LocoScroll();
+    if($('.moveUp').length > 0) {
+        var moveUp = new TimelineMax({repeat:-1, yoyo:true, repeatDelay:0.5});
+        moveUp.to(".moveUp", 3, {y:-13});
+        moveUp.to(".moveUp", 3, {y:0});
+    }
+
+    if ($('.wisdom-img-bx').length > 0) {
+        //var rotateArc = gsap.timeline({repeat: -1});
+        //TweenMax.to(".wisdom-img-arc", {rotation: 360, ease: Linear.easeNone, repeat: -1, duration: 100})
+        //roundSvg.to(".rotating-right", {rotation: -360, ease: "none", duration: 50}, '-=50')
+        //rotateArc.play();
+    }
+
+
+    /*var morphtl = gsap.timeline({repeat:-1, defaults: {duration: 3}}),
+        morph = document.getElementById("morph-shape");
+
+    morphtl.to(morph, {morphSVG:"#morph-shape1"}, "+=1")
+        .to(morph, {morphSVG:"#morph-shape2"}, "+=1")
+        .to(morph, {morphSVG:"#morph-shape3"}, "+=1")
+        .to(morph, {morphSVG:morph}, "+=1");*/
+
+
+    $("body").on("inview", "img[data-src]", function () {
+        var $this = $(this);
+        $this.attr("src", $this.attr("data-src"));
+        // Remove it from the set of matching elements in order to avoid that the handler gets re-executed
+        $this.removeAttr("data-src");
+        $('.imgUnload').addClass('imgLoaded');
+        setTimeout(function () {
+            $(".imgLoaded").removeClass("imgUnload");
+            $('.imgLoaded').find('.loader').remove();
+        }, 10);
+    });
+
+
+
+
+
+    if ($(".swiper-container").length > 0) {
+
+    var mySwiper = undefined;
+
+    function initSwiper() {
+        var screenWidth = $(window).width();
+        if (screenWidth > 767 && mySwiper == undefined) {
+            mySwiper = new Swiper('.swiper-container', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: false,
+                freeMode: true,
+                mousewheel: true,
+                //autoHeight: true, //enable auto height
+                slidesPerView: 'auto',
+                // If we need pagination
+
+                keyboard: {
+                    enabled: true,
+                }
+            });
+        }
+        else if (screenWidth < 768 && mySwiper != undefined) {
+            mySwiper.destroy();
+            mySwiper = undefined;
+            $('.swiper-wrapper').removeAttr('style');
+            $('.swiper-slide').removeAttr('style');
+        }
+    }
+
+        //Swiper plugin initialization
+        initSwiper();
+    }
+	
+	function historySlider() {
+var historyCounter = 1;
+var historyMarginTop = 0;
+var totalSlides = $('.history-slider .history-data-counter').length;
+$('.history-data-counter').each(function(index){
+$(this).attr("data-count", index+1);
+});
+
+        function arrowDisableClass() {
+            if (historyCounter >= totalSlides) {
+                $(".history-next").addClass("history-arrow-disable");
+            } else {
+                $(".history-next").removeClass("history-arrow-disable");
+            }
+            if (historyCounter <= 1) {
+                $(".history-prev").addClass("history-arrow-disable");
+            } else {
+                $(".history-prev").removeClass("history-arrow-disable");
+            }
+        }
+
+        $('.history-slider [data-count]').removeClass("animate-slide");
+        $('.history-slider [data-count="1"]').addClass("animate-slide");
+        arrowDisableClass();
+        $('.history-slider [data-count]').click(function (e) {
+            e.preventDefault();
+            var that = $(this);
+            historyCounter = $(this).data("count");
+            if (!$(this).hasClass("disable-click")) {
+                $(this).addClass("disable-click");
+                $(".history-arrow").addClass("disable-click");
+                setTimeout(function () {
+                    that.removeClass("disable-click");
+                    $(".history-arrow").removeClass("disable-click");
+                }, 1000);
+
+historyMarginTop = -$('.history-slider [data-count="' + (historyCounter) + '"]').outerHeight(true) * (historyCounter - 1);
+TweenLite.to(".history-slider", 1, {y: historyMarginTop});
+$('.history-slider [data-count]').removeClass("animate-slide");
+$('.history-slider [data-count="' + historyCounter + '"]').addClass("animate-slide");
+}
+arrowDisableClass();
+});
+$(".history-next").click(function (e) {
+e.preventDefault();
+if (historyCounter < totalSlides && !$(this).hasClass("disable-click")) {
+$(this).addClass("disable-click");
+setTimeout(function () {
+$(".history-next").removeClass("disable-click");
+}, 1000);
+
+historyCounter++;
+historyMarginTop = historyMarginTop - $('.history-slider [data-count="' + (historyCounter) + '"]').outerHeight(true);
+TweenLite.to(".history-slider", 1, {y: historyMarginTop});
+$('.history-slider [data-count]').removeClass("animate-slide");
+$('.history-slider [data-count="' + historyCounter + '"]').addClass("animate-slide");
+}
+arrowDisableClass();
+})
+$(".history-prev").click(function (e) {
+e.preventDefault();
+if (historyCounter > 1 && !$(this).hasClass("disable-click")) {
+$(this).addClass("disable-click");
+setTimeout(function () {
+$(".history-prev").removeClass("disable-click");
+}, 1000);
+
+historyCounter--;
+historyMarginTop = historyMarginTop + $('.history-slider [data-count="' + (historyCounter) + '"]').outerHeight(true);
+TweenLite.to(".history-slider", 1, {y: historyMarginTop});
+$('.history-slider [data-count]').removeClass("animate-slide");
+$('.history-slider [data-count="' + historyCounter + '"]').addClass("animate-slide");
+}
+arrowDisableClass();
+});
+
+}
+historySlider();
+	
+});
+
+$(document).keydown(function (event) {
+    if (event.ctrlKey == true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109' || event.which == '187' || event.which == '189')) {
+        event.preventDefault();
+    }
+});
+
+$(window).bind('mousewheel DOMMouseScroll', function (event) {
+    if (event.ctrlKey == true) {
+        event.preventDefault();
+    }
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    /*
+        var imgLoad0 = imagesLoaded( '.page-view', { background: true }, function() {
+            console.log('page-view loaded');
+        });
+        imgLoad0.on( 'done', function( instance ) {
+            new Core.Slider({
+
+            });
+        });
+    */
+});

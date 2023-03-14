@@ -1,0 +1,304 @@
+.special-offer-sec{
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  padding: 0 0 em(50);
+  .container{
+    position: relative;
+    z-index: 2;
+  }
+  .grid{
+    .container{
+      &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 60%;
+        bottom: 0;
+        z-index: 1;
+        background: -moz-linear-gradient(top, rgba(92,161,51,0.37) 0%, rgba(92,161,51,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(92,161,51,0.37) 0%,rgba(92,161,51,1) 100%);
+        background: linear-gradient(to bottom, rgba(92,161,51,0.37) 0%,rgba(92,161,51,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5ca133', endColorstr='#5ca133',GradientType=0 );
+        display: none;
+      }
+    }
+  }
+  .special-offer-inr{
+    height: auto;
+    position: relative;
+  }
+  .special-offer-video{
+    position: absolute;
+    top: em(-170);
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+}
+
+.paper-bg{
+  background: url("/assets/images/special-offer-bg2.png") no-repeat center;
+  background-size:100% auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.special-offer-box{
+  position: relative;
+  z-index: 2;
+  padding: em(150) em(220) em(180);
+  height: em(655);
+  min-height: auto;
+  text-align: center;
+  h2{
+    color: #3a1c08;
+    font-family: $Kaushan-font-family;
+    font-weight: 400;
+  }
+  p{
+    color: #3a1c08;
+  }
+  .btn{
+    margin: em(25) 0 0;
+  }
+}
+
+.special-paper-spirit{
+  width: 919px;
+  height: 687px;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: em(-395);
+  pointer-events: none;
+  z-index: 3;
+  /*&.paper-start{
+    background-image : url("/assets/images/only-parrot.png");
+    opacity: 1;
+    -webkit-animation: paper-spirit 2.5s steps(16) forwards;
+    -moz-animation: paper-spirit 2.5s steps(17) infinite;
+    -ms-animation: paper-spirit 2.5s steps(17) infinite;
+    -o-animation: paper-spirit 2.5s steps(17) infinite;
+    animation: paper-spirit 2.5s steps(16) forwards;
+  }*/
+  &.paper-start{
+    background-image : url("/assets/images/only-parrot-new-2.png");
+    opacity: 1;
+    -webkit-animation: paper-spirit 2.5s steps(31) forwards;
+    -moz-animation: paper-spirit 2.5s steps(32) infinite;
+    -ms-animation: paper-spirit 2.5s steps(32) infinite;
+    -o-animation: paper-spirit 2.5s steps(32) infinite;
+    animation: paper-spirit 2.5s steps(32) forwards;
+  }
+}
+.hide-image{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  img{
+    opacity: 0;
+  }
+}
+
+
+@-webkit-keyframes paper-spirit {
+  from{background-position-x: 0px;}
+  to{background-position-x: -29424‬‬px;}
+}
+//919
+@-moz-keyframes paper-spirit {
+  from{background-position-x: 0px;}
+  to{background-position-x: -30343px;}
+}
+
+@-ms-keyframes paper-spirit {
+  from{background-position-x: 0px;}
+  to{background-position-x: -30343px;}
+}
+
+@-o-keyframes paper-spirit {
+  from{background-position-x: 0px;}
+  to{background-position-x: -30343px;}
+}
+
+@keyframes paper-spirit {
+  from{background-position-x: 0px;}
+  to{background-position-x: -29424px;}
+}
+
+
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) {
+  .special-paper-spirit{
+    top: em(-450);
+    left: em(-65);
+  }
+}
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .special-paper-spirit{
+    top: em(-500);
+    left: em(-80);
+  }
+}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .special-paper-spirit{
+    top: em(-710);
+    left: em(-145);
+  }
+  .special-offer-sec{
+    margin: 0 0 0;
+    &.special-static {
+      .special-offer-inr {
+        .special-offer-box{
+          height: em(600);
+        }
+      }
+    }
+  }
+}
+
+@media (width: 1280px) {
+  .special-paper-spirit{
+    top: em(-690);
+    left: em(-170);
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .special-offer-sec{
+   margin-top: em(50);
+    &.special-static {
+      .special-offer-inr {
+        .special-offer-box{
+          padding-top: em(130);
+          height: em(555);
+        }
+      }
+    }
+  }
+  .special-offer-box{
+    padding: em(200) em(200) 0;
+    min-height: em(580);
+    h2,p{
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .special-paper-spirit{
+    display: none;
+  }
+  .paper-bg{
+    background: url("/assets/images/special-offer-bg-full.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .special-offer-sec{
+    margin-top: em(80);
+    &.special-static {
+      .special-offer-inr {
+        margin-bottom: em(30);
+        .special-offer-box{
+          padding: em(140) em(130) 0;
+          height: em(500);
+          background-size: 100% auto;
+          .btn{
+            margin: 0 0 0;
+          }
+        }
+      }
+    }
+    .special-offer-box{
+      padding: em(190) em(150) 0;
+      height: em(580);
+      h2,p{
+        position: relative;
+        z-index: 2;
+      }
+      .btn{
+        margin-top: 0;
+      }
+    }
+  }
+
+  .special-paper-spirit{
+    display: none;
+  }
+  .paper-bg{
+    background: url("/assets/images/special-offer-bg-full.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .special-offer-sec{
+    margin-top: em(80);
+    &.special-static {
+      .special-offer-inr {
+        margin-bottom: em(30);
+        .special-offer-box{
+          padding: em(90) em(40) em(80);
+          height: auto;
+          background-size: 100% auto;
+          background-image: none;
+          background-color: $white;
+          .btn{
+            margin: 0 0 0;
+          }
+        }
+      }
+    }
+    .special-offer-box{
+      padding: em(90) em(40) em(80);
+      height: auto;
+      background-size: 100% auto;
+      background-image: none;
+      background-color: $white;
+      h2,p{
+        position: relative;
+        z-index: 2;
+      }
+      .btn{
+        margin-top: 0;
+      }
+    }
+  }
+
+  .special-paper-spirit{
+    display: none;
+  }
+  .paper-bg{
+    background: url("/assets/images/special-offer-bg-full.png") no-repeat center;
+    background-size: 100% auto;
+    display: none;
+  }
+
+}
+
+
+

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SendBankResponsetoPosApi.aspx.cs" Inherits="SendBankResponsetoPosApi" %>

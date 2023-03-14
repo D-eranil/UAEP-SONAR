@@ -1,0 +1,6 @@
+
+ ---------------------------- 8/26/2021 1:59:23 PM ---------------------------------
+{"Finalization":{"TransactionID":"246454622123","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}
+
+ ---------------------------- 8/26/2021 1:59:23 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"906226\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"02805\",\"Amount\":{\"Value\":\"20.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2022-01\",\"CardType\":\"Unknown\",\"UniqueID\":\"995870ce-7aa1-4d25-92d3-4ddc1186de84\"}}"

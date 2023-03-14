@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88.875" height="79.25" viewBox="0 0 88.875 79.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5ca133;
+        fill-opacity: 0;
+        stroke: #fbf9f4;
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="quote-icon" class="cls-1" d="M964.34,2404.21v28.64h38.9v-38.89H988.261v-4.86q0-19.7,14.979-21.93v-12.09q-38.9,5.13-38.9,49.13h0Zm-48.454,0v28.64h38.9v-38.89H939.807v-4.86q0-19.7,14.983-21.93v-12.09q-38.906,5.13-38.9,49.13h0Z" transform="translate(-915.125 -2354.34)"/>
+</svg>

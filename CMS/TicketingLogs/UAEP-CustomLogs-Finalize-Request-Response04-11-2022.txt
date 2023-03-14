@@ -1,0 +1,36 @@
+
+ ---------------------------- 11/4/2022 2:48:43 PM ---------------------------------
+{"Finalization":{"TransactionID":"213780265432","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 2:48:44 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"483649\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04614\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2023-01\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"True\",\"UniqueID\":\"fb601d9c-6fc8-45a6-ac26-39ae59a3d77f\"}}"
+
+ ---------------------------- 11/4/2022 3:04:19 PM ---------------------------------
+{"Finalization":{"TransactionID":"242635762683","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 3:04:19 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"160061\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04618\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2023-01\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"True\",\"UniqueID\":\"727ddd00-d4c5-4317-ab33-5e39720edcf5\"}}"
+
+ ---------------------------- 11/4/2022 4:10:38 PM ---------------------------------
+{"Finalization":{"TransactionID":"228043319950","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 4:10:38 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"143887\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04622\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2023-01\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"True\",\"UniqueID\":\"48c35e8b-5bf7-4e5f-8832-50ddc6d31f15\"}}"
+
+ ---------------------------- 11/4/2022 4:19:30 PM ---------------------------------
+{"Finalization":{"TransactionID":"229071270838","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 4:19:30 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"414337\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04626\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2023-01\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"True\",\"UniqueID\":\"5637a3b6-7e5d-4186-b47c-16f8dab06e62\"}}"
+
+ ---------------------------- 11/4/2022 4:43:03 PM ---------------------------------
+{"Finalization":{"TransactionID":"211126819908","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 4:43:03 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request Processed Successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"327645\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04634\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardExpiry\":\"2023-01\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"True\",\"UniqueID\":\"af00aa54-185a-46f0-b5a2-c2e386ded13b\"}}"
+
+ ---------------------------- 11/4/2022 4:48:39 PM ---------------------------------
+{"Finalization":{"TransactionID":"211126819908","Customer":"Demo Merchant","UserName":"Demo_fY9c","Password":"Comtrust@20182018"}}, RequestUrl : https://demo-ipg.ctdev.comtrust.ae:2443
+
+ ---------------------------- 11/4/2022 4:48:39 PM ---------------------------------
+"{\"Transaction\":{\"ResponseCode\":\"0\",\"ResponseClass\":\"0\",\"ResponseDescription\":\"Request processed successfully\",\"ResponseClassDescription\":\"Success\",\"Language\":\"en\",\"ApprovalCode\":\"327645\",\"Account\":\"NI\",\"Balance\":{\"Value\":\"0\"},\"OrderID\":\"04634\",\"Amount\":{\"Value\":\"10.000\"},\"Fees\":{\"Value\":\"0\"},\"CardNumber\":\"555555******4444\",\"Payer\":{\"Information\":\"555555******4444\"},\"CardToken\":\"5555555602174444\",\"CardBrand\":\"MasterCard\",\"CardType\":\"Unknown\",\"IsWalletUsed\":\"False\",\"IsCaptured\":\"False\",\"UniqueID\":\"48f40817-0c69-4be0-8d77-1e3127f1a914\"}}"

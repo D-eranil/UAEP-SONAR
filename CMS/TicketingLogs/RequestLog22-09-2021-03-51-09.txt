@@ -1,0 +1,66 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <ImportTransIntegration xmlns="urn:microsoft-dynamics-schemas/codeunit/LS_Item_Price">
+            <importWebSiteData>
+                <Loyaltycustomer xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <customerEntryno></customerEntryno>
+                    <customerNo></customerNo>
+                    <customerContactno></customerContactno>
+                    <customerMobileno></customerMobileno>
+                    <customerLoyaltycustomer></customerLoyaltycustomer>
+                    <customerClubcode></customerClubcode>
+                    <customerSchemecode></customerSchemecode>
+                    <customerName></customerName>
+                    <customerName2></customerName2>
+                    <customerAddress></customerAddress>
+                    <customerAddress2></customerAddress2>
+                    <customerCity></customerCity>
+                    <customerCountry></customerCountry>
+                    <customerPhoneno></customerPhoneno>
+                    <customerEmail></customerEmail>
+                    <customerPostcode></customerPostcode>
+                </Loyaltycustomer>
+                <TransactionHeader xmlns="urn:microsoft-dynamics-nav/xmlports/x50004">
+                    <headerReceiptNo>WR213072520840</headerReceiptNo>
+                    <headerStoreNo>S1001</headerStoreNo>
+                    <headerTansactionDate>2021-09-22</headerTansactionDate>
+                    <headerTransactionTime>15:51:09</headerTransactionTime>
+                    <headerOriginialDate>2021-09-22</headerOriginialDate>
+                    <headerNoOfItem>1</headerNoOfItem>
+                    <headerNoofItemLines></headerNoofItemLines>
+                    <headerMembeCardNo></headerMembeCardNo>
+                    <headerCustomerNo></headerCustomerNo>
+                    <headerNetAmount>10</headerNetAmount>
+                    <headerVATAmount></headerVATAmount>
+                    <headerGrossAmount>11</headerGrossAmount>
+                    <headerDiscountAmount>0</headerDiscountAmount>
+                    <headerTenderType>Online Payment</headerTenderType>
+                    <headerPaymentAmount>10</headerPaymentAmount>
+					<headerNetPrice>10</headerNetPrice>
+                    <TransactionLine>
+	<lineReceiptNo>WR213072520840</lineReceiptNo>
+	<lineTransDate>2021-09-22</lineTransDate>
+	<lineTransTime>15:51:09</lineTransTime>
+	<lineNo>10000</lineNo>
+	<lineStoreNo>S1001</lineStoreNo>
+	<lineTicketNo>6000015</lineTicketNo>
+	<lineTicketExpiryDate>2021-09-22</lineTicketExpiryDate>
+    <lineTicketActivateDate>2021-09-22</lineTicketActivateDate>
+	<lineItemNo>1</lineItemNo>
+	<lineItemdescription></lineItemdescription>
+	<lineExpirationdate></lineExpirationdate>
+	<lineQuantity>1</lineQuantity>
+	<lineUnitPrice>11.00</lineUnitPrice>
+	<lineVATCode></lineVATCode>
+	<lineVATPercentage></lineVATPercentage>
+	<lineVatAmount></lineVatAmount>
+	<lineNetAmount>10</lineNetAmount>
+	<lineDiscountPercent></lineDiscountPercent>
+	<lineDiscountAmount></lineDiscountAmount>
+	<lineAmount>10</lineAmount>
+</TransactionLine>
+                </TransactionHeader>
+            </importWebSiteData>
+        </ImportTransIntegration>
+    </Body>
+</Envelope>

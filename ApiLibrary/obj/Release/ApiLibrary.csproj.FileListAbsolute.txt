@@ -1,0 +1,9 @@
+F:\UAEP\Website\ApiLibrary\bin\Release\ApiLibrary.dll
+F:\UAEP\Website\ApiLibrary\bin\Release\ApiLibrary.pdb
+F:\UAEP\Website\ApiLibrary\bin\Release\Newtonsoft.Json.dll
+F:\UAEP\Website\ApiLibrary\bin\Release\Newtonsoft.Json.xml
+F:\UAEP\Website\ApiLibrary\obj\Release\ApiLibrary.csproj.AssemblyReference.cache
+F:\UAEP\Website\ApiLibrary\obj\Release\ApiLibrary.csproj.CoreCompileInputs.cache
+F:\UAEP\Website\ApiLibrary\obj\Release\ApiLibrary.csproj.CopyComplete
+F:\UAEP\Website\ApiLibrary\obj\Release\ApiLibrary.dll
+F:\UAEP\Website\ApiLibrary\obj\Release\ApiLibrary.pdb

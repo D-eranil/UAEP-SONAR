@@ -1,0 +1,92 @@
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote name could not be resolved: 'houa-uaeppos01.pom.local'
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ApiLibrary.Helper.GetPriceApiHelper.GetPriceXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.SendClientEmail(HttpServerUtility Server, HttpRequest Request, String orderID, String filePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 296
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 77
+Void SendClientEmail(System.Web.HttpServerUtility, System.Web.HttpRequest, System.String, System.String)
+   at PaymentFinalizepost.SendClientEmail(HttpServerUtility Server, HttpRequest Request, String orderID, String filePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 296
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentFinalizepost.SendClientEmail(HttpServerUtility Server, HttpRequest Request, String orderID, String filePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 296
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 77
+Void SendClientEmail(System.Web.HttpServerUtility, System.Web.HttpRequest, System.String, System.String)
+   at PaymentFinalizepost.SendClientEmail(HttpServerUtility Server, HttpRequest Request, String orderID, String filePath) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 296
+   at PaymentFinalizepost.CallPaymentFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\LoyalityForm\PaymentFinalizepost.aspx.cs:line 77

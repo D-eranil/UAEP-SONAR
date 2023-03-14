@@ -1,0 +1,81 @@
+.popup-style{
+  .modal-dialog{
+    width: em(800);
+    max-width: 92%;
+    margin-top: em(100);
+  }
+  .modal-content{
+  padding: em(60) em(50) em(20);
+  }
+  color: $grey;
+  h3{
+    color: $grey;
+    margin: 0 0 em(5);
+  }
+  .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: em(40);
+    height: em(40);
+    background: $primary;
+    color: $white;
+    text-shadow: none;
+    opacity: 1;
+    &:before{
+      position: absolute;
+      content: '';
+      right: 0;
+      width: 0;
+      height: 100%;
+      top:0;
+      background: #528434;
+      @include transitions(0.5s);
+    }
+    i{
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+
+
+// Laptops large devices (desktops, 1600px and up)
+@media (min-width: 1600px) and (max-width: 1699.98px) { }
+
+// Laptops large devices (desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+// Laptops small devices (desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .popup-style {
+    .close{
+      &:hover{
+        opacity: 1;
+        &:before{
+          left: 0;
+          width: 100%;
+        }
+        &:not(:disabled){
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { }

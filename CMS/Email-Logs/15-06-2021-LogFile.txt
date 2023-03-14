@@ -1,0 +1,18 @@
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)

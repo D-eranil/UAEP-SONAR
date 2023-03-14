@@ -1,0 +1,72 @@
+.grid {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  height: 100%;
+  pointer-events: none;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      [class="col-"] {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.line-height{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+
+.grid-line {
+  height: 100%;
+  border-left: 1px solid rgba($white, 0.10);
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid
+  {
+    display: none;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid {
+    display: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .grid {
+    display: none;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 320px) {
+
+}

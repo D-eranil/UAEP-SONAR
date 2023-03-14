@@ -1,0 +1,72 @@
+System.ArgumentNullException: Value cannot be null.
+Parameter name: input
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 39
+System.Object Deserialize(System.Web.Script.Serialization.JavaScriptSerializer, System.String, System.Type, Int32)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 39
+System.ArgumentNullException: Value cannot be null.
+Parameter name: input
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 39
+System.Object Deserialize(System.Web.Script.Serialization.JavaScriptSerializer, System.String, System.Type, Int32)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 39
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.String CallImportTransactionApi(System.String, System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.String CallImportTransactionApi(System.String, System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.String CallImportTransactionApi(System.String, System.String, System.String, System.String)
+   at ImportTransactionApipost.CallImportTransactionApi(String orderID, String numberofItems, String RequestData, String barCodes) in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 142
+   at ImportTransactionApipost.CallImportTransactionFinalize() in D:\Tfs Azure Development\Uaep\Solution\Website\CMS\postaspxfiles\PaymentForm\ImportTransactionApipost.aspx.cs:line 44
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)
+System.Net.WebResponse GetResponse()
+   at System.Net.HttpWebRequest.GetResponse()
+   at ApiLibrary.Helper.ImportTransactionApi.ImportTransactionXmlApi(String requestData)

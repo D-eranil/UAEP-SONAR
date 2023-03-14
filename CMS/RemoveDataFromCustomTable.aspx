@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="RemoveDataFromCustomTable.aspx.cs" Inherits="RemoveDataFromCustomTable" %>

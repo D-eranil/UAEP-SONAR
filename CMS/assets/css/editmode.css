@@ -1,0 +1,62 @@
+﻿/*header{
+	background: #0087fa;
+	position: relative;
+    z-index: 999;
+}*/
+
+
+.static-header{
+    position: relative;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    	font-family: "Core-icons", "uaep" !important;
+}
+
+.EditableTextTextBox {
+    margin: 0;
+    color: inherit;
+    background-color: inherit;
+    height: inherit !important;
+    padding: 0 0 0 0 !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+
+
+.home-section .EditorWidget .WebPartHeader .WebPartHandle{
+    top: 210px;
+    right: auto;
+    left: 37px;
+}
+
+.home-section .EditorWidgetZone .WebPartZoneHeader{
+    top: 212px;
+}
+
+.static-header ~ .WebPartZone_ZoneBanner.EditorWidgetZone .WebPartZoneHeader{
+    top: 268px;
+}
+
+.static-header ~ .WebPartZone_ZoneBanner .EditorWidget .WebPartHeader .WebPartHandle{
+    top: 210px;
+    right: auto;
+    left: 37px;
+}
+.cms-bootstrap .icon-menu:before {
+    font-family: "Core-icons","uaep" !important;
+}
+
+body main {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+
+@media (min-width: 1200px){
+    body {
+        overflow-y: auto;
+    }
+}
+

@@ -1,0 +1,246 @@
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.dll.config
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.pdb
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.exe
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.exe.config
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.rsp
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.exe
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.exe.config
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.rsp
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.AppContext.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Collections.Immutable.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Console.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Compression.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.AccessControl.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Claims.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.ValueTuple.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.exe
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.exe.config
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.rsp
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe.config
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Antlr3.Runtime.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\ApiLibrary.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\IronBarCode.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\KeepAutomation.Barcode.Web.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.Web.Infrastructure.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Newtonsoft.Json.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Rotativa.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Helpers.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Mvc.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Optimization.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Razor.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Razor.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\WebGrease.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\ApiLibrary.pdb
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\IronBarCode.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Helpers.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Mvc.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Optimization.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Razor.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Razor.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Newtonsoft.Json.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Antlr3.Runtime.pdb
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csprojAssemblyReference.cache
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CoreCompileInputs.cache
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CopyComplete
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.dll
+D:\Tfs Azure Development\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.dll.config
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\PDFLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.exe
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.exe.config
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csc.rsp
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.exe
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.exe.config
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\csi.rsp
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.AppContext.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Console.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Compression.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.AccessControl.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Claims.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.ValueTuple.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.exe
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.exe.config
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\vbc.rsp
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Antlr3.Runtime.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\ApiLibrary.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\IronBarCode.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\KeepAutomation.Barcode.Web.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Newtonsoft.Json.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Rotativa.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Helpers.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Mvc.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Optimization.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Razor.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\WebGrease.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\ApiLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\IronBarCode.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Helpers.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Mvc.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Optimization.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.Razor.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Newtonsoft.Json.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Antlr3.Runtime.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CopyComplete
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.dll
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.pdb
+D:\Projects\Uaep\Uaep\Solution\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.AssemblyReference.cache
+F:\UAEP\Website\PDFLibrary\bin\PDFLibrary.dll.config
+F:\UAEP\Website\PDFLibrary\bin\PDFLibrary.dll
+F:\UAEP\Website\PDFLibrary\bin\PDFLibrary.pdb
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csc.exe
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csc.exe.config
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csc.rsp
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csi.exe
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csi.exe.config
+F:\UAEP\Website\PDFLibrary\bin\roslyn\csi.rsp
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.Managed.Core.targets
+F:\UAEP\Website\PDFLibrary\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.AppContext.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Collections.Immutable.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Console.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.IO.Compression.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.IO.Pipes.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Reflection.Metadata.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.AccessControl.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Claims.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Security.Principal.Windows.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.ValueTuple.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Xml.XmlDocument.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\UAEP\Website\PDFLibrary\bin\roslyn\vbc.exe
+F:\UAEP\Website\PDFLibrary\bin\roslyn\vbc.exe.config
+F:\UAEP\Website\PDFLibrary\bin\roslyn\vbc.rsp
+F:\UAEP\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe
+F:\UAEP\Website\PDFLibrary\bin\roslyn\VBCSCompiler.exe.config
+F:\UAEP\Website\PDFLibrary\bin\Antlr3.Runtime.dll
+F:\UAEP\Website\PDFLibrary\bin\ApiLibrary.dll
+F:\UAEP\Website\PDFLibrary\bin\IronBarCode.dll
+F:\UAEP\Website\PDFLibrary\bin\KeepAutomation.Barcode.Web.dll
+F:\UAEP\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\UAEP\Website\PDFLibrary\bin\Microsoft.Web.Infrastructure.dll
+F:\UAEP\Website\PDFLibrary\bin\Newtonsoft.Json.dll
+F:\UAEP\Website\PDFLibrary\bin\Rotativa.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Helpers.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Mvc.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Optimization.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Razor.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.dll
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.Razor.dll
+F:\UAEP\Website\PDFLibrary\bin\WebGrease.dll
+F:\UAEP\Website\PDFLibrary\bin\ApiLibrary.pdb
+F:\UAEP\Website\PDFLibrary\bin\IronBarCode.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Helpers.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Mvc.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Optimization.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.Razor.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.Deployment.xml
+F:\UAEP\Website\PDFLibrary\bin\System.Web.WebPages.Razor.xml
+F:\UAEP\Website\PDFLibrary\bin\Newtonsoft.Json.xml
+F:\UAEP\Website\PDFLibrary\bin\Antlr3.Runtime.pdb
+F:\UAEP\Website\PDFLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\UAEP\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.AssemblyReference.cache
+F:\UAEP\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CoreCompileInputs.cache
+F:\UAEP\Website\PDFLibrary\obj\Debug\PDFLibrary.csproj.CopyComplete
+F:\UAEP\Website\PDFLibrary\obj\Debug\PDFLibrary.dll
+F:\UAEP\Website\PDFLibrary\obj\Debug\PDFLibrary.pdb

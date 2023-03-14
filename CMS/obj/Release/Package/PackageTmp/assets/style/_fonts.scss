@@ -1,0 +1,189 @@
+/*@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/assets/fonts/HelveticaNeueUltraLight.eot'); !* IE9 Compat Modes *!
+  src: url('/assets/fonts/HelveticaNeueUltraLight.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+  url('/assets/fonts/HelveticaNeueUltraLight.woff') format('woff'), !* Modern Browsers *!
+  url('/assets/fonts/HelveticaNeueUltraLight.ttf')  format('truetype'), !* Safari, Android, iOS *!
+  url('/assets/fonts/HelveticaNeueUltraLight.svg#9453ea8da727d260bcdbfa605bdbb5d2') format('svg'); !* Legacy iOS *!
+  font-style:   normal;
+  font-weight:  100;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/assets/fonts/HelveticaNeueLight.eot'); !* IE9 Compat Modes *!
+  src: url('/assets/fonts/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+  url('/assets/fonts/HelveticaNeueLight.woff') format('woff'), !* Modern Browsers *!
+  url('/assets/fonts/HelveticaNeueLight.ttf')  format('truetype'), !* Safari, Android, iOS *!
+  url('/assets/fonts/HelveticaNeueLight.svg#7384ecabcada72f0e077cd45d8e1c705') format('svg'); !* Legacy iOS *!
+  font-style: normal;
+  font-weight:  200;
+}
+
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/assets/fonts/HelveticaNeueMedium.eot'); !* IE9 Compat Modes *!
+  src: url('/assets/fonts/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+  url('/assets/fonts/HelveticaNeueMedium.woff') format('woff'), !* Modern Browsers *!
+  url('/assets/fonts/HelveticaNeueMedium.ttf')  format('truetype'), !* Safari, Android, iOS *!
+  url('/assets/fonts/HelveticaNeueMedium.svg#d7af0fd9278f330eed98b60dddea7bd6') format('svg'); !* Legacy iOS *!
+  font-style: normal;
+  font-weight:  400;
+}*/
+
+
+@font-face {
+  font-family: 'HelveticaNeueLTArabic-Roman';
+  src: url('/assets/fonts/HelveticaNeueLTArabic-Roman.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/HelveticaNeueLTArabic-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/assets/fonts/HelveticaNeueLTArabic-Roman.woff') format('woff'), /* Modern Browsers */
+  url('/assets/fonts/HelveticaNeueLTArabic-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/assets/fonts/HelveticaNeueLTArabic-Roman.svg#9453ea8da727d260bcdbfa605bdbb5d2') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd';
+  src: url('/assets/fonts/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bold.otf')  format('opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
+  url('/assets/fonts/ITCAvantGardeStd-Bold.ttf')  format('truetype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd';
+  src: url('/assets/fonts/ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Md.otf')  format('opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Md.woff') format('woff'),
+  url('/assets/fonts/ITCAvantGardeStd-Md.ttf')  format('truetype'),
+  url('/assets/fonts/ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd'; /* ITCAvantGardeStd Book*/
+  src: url('/assets/fonts/ITCAvantGardeStd-Bk.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bk.otf')  format('opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bk.woff') format('woff'),
+  url('/assets/fonts/ITCAvantGardeStd-Bk.ttf')  format('truetype'),
+  url('/assets/fonts/ITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd';
+  src: url('/assets/fonts/ITCAvantGardeStd-XLt.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.otf')  format('opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.woff') format('woff'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.ttf')  format('truetype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.svg#ITCAvantGardeStd-XLt') format('svg');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardeStd-XLt';
+  src: url('/assets/fonts/ITCAvantGardeStd-XLt.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.otf')  format('opentype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.woff') format('woff'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.ttf')  format('truetype'),
+  url('/assets/fonts/ITCAvantGardeStd-XLt.svg#ITCAvantGardeStd-XLt') format('svg');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "uaep";
+  src:url("/assets/fonts/uaep.eot");
+  src:url("/assets/fonts/uaep.eot?#iefix") format("embedded-opentype"),
+  url("/assets/fonts/uaep.woff") format("woff"),
+  url("/assets/fonts/uaep.ttf") format("truetype"),
+  url("/assets/fonts/uaep.svg#uaep") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "uaep" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "uaep" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-youtube:before {
+  content: "\62";
+}
+.icon-instagram:before {
+  content: "\63";
+}
+.icon-twitter:before {
+  content: "\64";
+}
+.icon-school-trip:before {
+  content: "\65";
+}
+.icon-search:before {
+  content: "\66";
+}
+.icon-tickets:before {
+  content: "\67";
+}
+.icon-venue-icon:before {
+  content: "\68";
+}
+.icon-times:before {
+  content: "\6a";
+}
+.icon-angle-right:before {
+  content: "\69";
+}
+.icon-angle-left:before {
+  content: "\6b";
+}
+.icon-icon-play:before {
+  content: "\6c";
+}
+.icon-angle-down:before {
+  content: "\6d";
+}
+.icon-angle-up:before {
+  content: "\6e";
+}
+.icon-plus:before {
+  content: "\6f";
+}
+.icon-minus:before {
+  content: "\70";
+}
+.icon-calander:before {
+   content: "\71";
+ }

@@ -1,0 +1,13 @@
+<svg id="divider.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="282" height="32" viewBox="0 0 282 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="120" width="42" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAgCAYAAABkWOo9AAAERUlEQVRYhc2YXYhVVRiGn1HHJm3GwrzIn8zJtF8dg8wukgyKAi8qIjKyJAqKspsiAytE6aLQm6Tox6JfMgqKQqkI/+hH68IJFNNKHJlqKgZ1nLEZnZk3Pnj3sNqdM3POnCPMCx97n72/vda7vrW+91vr1EgCuAF4BrgYOJf/ox84DpwETgDHgH+ANuCQ7TDQAvzm51VFEL0c+BaoTxrucWd1QDcQo+kC+oAOX2cBZ/kd9q1JfPYCB33dBez24IaFILoHuKzaETA6TD6C0Av8AGwBtgHflEM8iH4PXOXfMcWvA7/69zmOaGAqMNpRjOfzc7NQLnpMdhOwEfh9KKL3A68lzz4E7iixswbgbGCSBxJ2vm02cClwRgnt9LvfVcBPBT0kjZb0lf6L+ZFkVbAxkhZIWitpn4ZGj6QHC/Wb3VwhqS9pZkOViOZtmqT7JL0v6a9BaN9TjGjYxsSxRdKknPMsSaslPRZKUSXicyW9KKk3R7RLUmMxonNzzksLNHylpJWSmiW1SvpI0gOSplRIOJba37n+30l9MsHPsBW4zvf7gMXWwkIYB8wDmoDpTqrI3E+A5hKTMcVCYLt1OSTtFDDRhYZROee1voa4XwI8N0jD51mmJpt0q6vW4+7weWCBOy0FO4BP7R/SVZsEjfwURIR/lNQhqV1Sp6RrB5mysZImSFrn6Tou6QNJX/i+z+2tdiINtQTudjtZYg8oQD6ics2v9zTWOcq1RSIy1pFvtw62WIMXumxusc/TLiIvAxcMEt1syWS8ugfeFBnZlx7R15JOSVpVRmLMkPSQpO3O5mOSDiRR6nUSPitpdu7bulxCLSuU9amFNPxhrdvhToZTBOolPSnpcBG9jCCs8JLLvtlUDtGwmyUdlbRX0m7L0cxhyk8QuVPSkRzRbkf4bVfI8F3k3AjcWgrRsHs96lgC+012TgV6WW/dfcNBCBx04r6VRPYRR/bGUomGPeFR73S97khHOkxrkvSCSQYOuRquSNZq+Ewthygum12Wmu/c+EuSGiogO07SGpOUZyskbV4h/3IaXuoMbvbUZVGO6I6qgOznJiivzW255CqbaNjVXq+bLTGdVoddXs91wyB7UUI0k6+HKyUaNlHSu5LWS3pF0smkk/2uJk2FojKILUna6LecTauUaGa3SfrYSyJI/yJpuaTpjmwIf20Z7b2ZkD3hWRt4n989lYszgeU+kb7q0rvYpS9OnX8Ce1xih0JscH72jinDEp+nKiaaIXZPy3xIbHeN32nCjf4/4ECRbyd4b/AZ8BSwJnnX5rNXR7WIppgD3A7cBEzxvjb2tEeAoz4i9/k02+g/PVZ6mzfeA5qctLceePR0EE0RHV8IzPD+Nf6FGeNTZ5sHkD/f3wW8l/yOQc083USHgxqTvyb5dt1IJBpY5HWOo9+a3ziPFGz12sabaI1UooENQKfvG0bq1Aci8a4HbgHG/wtZaLCj2R5hBwAAAABJRU5ErkJggg=="/>
+  <path class="cls-1" d="M818,375H918v3" transform="translate(-818 -364)"/>
+  <path id="Shape_28_copy" data-name="Shape 28 copy" class="cls-1" d="M1100,375H1000v3" transform="translate(-818 -364)"/>
+</svg>
